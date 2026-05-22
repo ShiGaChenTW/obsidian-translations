@@ -1,0 +1,2539 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Baseline",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supportedVersions": "3.2.9",
+        "title": "Baseline",
+        "description": "Baseline Localization & Tweaks",
+        "author": "Scott"
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Baseline",
+            "target": "Baseline"
+        },
+        {
+            "type": "title",
+            "source": "Get started",
+            "target": "Get started"
+        },
+        {
+            "type": "title",
+            "source": "Migrate configuration",
+            "target": "Migrate configuration"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "true"
+        },
+        {
+            "type": "description",
+            "source": "Migrate **existing Style Settings** from supported themes. ↗[](https://aaaaalexis.github.io/obsidian-baseline/migration/)",
+            "target": "Migrate **existing Style Settings** from supported themes. ↗[](https://aaaaalexis.github.io/obsidian-baseline/migration/)"
+        },
+        {
+            "type": "title",
+            "source": "Community presets",
+            "target": "Community presets"
+        },
+        {
+            "type": "description",
+            "source": "Discover Style Settings presets in **Baseline Marketplace**. ↗[](https://aaaaalexis.github.io/obsidian-baseline/marketplace/)",
+            "target": "Discover Style Settings presets in **Baseline Marketplace**. ↗[](https://aaaaalexis.github.io/obsidian-baseline/marketplace/)"
+        },
+        {
+            "type": "title",
+            "source": "Extended heading font",
+            "target": "Extended heading font"
+        },
+        {
+            "type": "description",
+            "source": "Heading font missing glyphs? Get **extended font CSS snippet**. ↗[](https://github.com/aaaaalexis/obsidian-baseline/blob/main/snippets/baseline-extension-font.css)",
+            "target": "Heading font missing glyphs? Get **extended font CSS snippet**. ↗[](https://github.com/aaaaalexis/obsidian-baseline/blob/main/snippets/baseline-extension-font.css)"
+        },
+        {
+            "type": "title",
+            "source": "Do not show again",
+            "target": "Do not show again"
+        },
+        {
+            "type": "title",
+            "source": "Colors",
+            "target": "Colors"
+        },
+        {
+            "type": "title",
+            "source": "Interface accent",
+            "target": "Interface accent"
+        },
+        {
+            "type": "description",
+            "source": "Apply accent color throughout the app.",
+            "target": "Apply accent color throughout the app."
+        },
+        {
+            "type": "title",
+            "source": "Color scheme accent",
+            "target": "Color scheme accent"
+        },
+        {
+            "type": "description",
+            "source": "Use color scheme preset accent color.",
+            "target": "Use color scheme preset accent color."
+        },
+        {
+            "type": "title",
+            "source": "Light color scheme",
+            "target": "Light color scheme"
+        },
+        {
+            "type": "label",
+            "source": "Obsidian",
+            "target": "Obsidian"
+        },
+        {
+            "type": "label",
+            "source": "Admin",
+            "target": "Admin"
+        },
+        {
+            "type": "label",
+            "source": "Adwaita",
+            "target": "Adwaita"
+        },
+        {
+            "type": "label",
+            "source": "Atom",
+            "target": "Atom"
+        },
+        {
+            "type": "label",
+            "source": "Ayu",
+            "target": "Ayu"
+        },
+        {
+            "type": "label",
+            "source": "Catppuccin",
+            "target": "Catppuccin"
+        },
+        {
+            "type": "label",
+            "source": "Cupertino",
+            "target": "Cupertino"
+        },
+        {
+            "type": "label",
+            "source": "Everforest",
+            "target": "Everforest"
+        },
+        {
+            "type": "label",
+            "source": "Flexoki",
+            "target": "Flexoki"
+        },
+        {
+            "type": "label",
+            "source": "Gruvbox",
+            "target": "Gruvbox"
+        },
+        {
+            "type": "label",
+            "source": "Latte",
+            "target": "Latte"
+        },
+        {
+            "type": "label",
+            "source": "Material",
+            "target": "Material"
+        },
+        {
+            "type": "label",
+            "source": "Melange",
+            "target": "Melange"
+        },
+        {
+            "type": "label",
+            "source": "Minimal",
+            "target": "Minimal"
+        },
+        {
+            "type": "label",
+            "source": "Nord",
+            "target": "Nord"
+        },
+        {
+            "type": "label",
+            "source": "Notion",
+            "target": "Notion"
+        },
+        {
+            "type": "label",
+            "source": "Rosé Pine",
+            "target": "Rosé Pine"
+        },
+        {
+            "type": "label",
+            "source": "Sanctum",
+            "target": "Sanctum"
+        },
+        {
+            "type": "label",
+            "source": "Sky",
+            "target": "Sky"
+        },
+        {
+            "type": "label",
+            "source": "Solarized",
+            "target": "Solarized"
+        },
+        {
+            "type": "label",
+            "source": "Things",
+            "target": "Things"
+        },
+        {
+            "type": "label",
+            "source": "Tiniri",
+            "target": "Tiniri"
+        },
+        {
+            "type": "title",
+            "source": "Light contrast",
+            "target": "Light contrast"
+        },
+        {
+            "type": "label",
+            "source": "Normal",
+            "target": "Normal"
+        },
+        {
+            "type": "label",
+            "source": "Low contrast",
+            "target": "Low contrast"
+        },
+        {
+            "type": "label",
+            "source": "High contrast",
+            "target": "High contrast"
+        },
+        {
+            "type": "title",
+            "source": "Dark color scheme",
+            "target": "Dark color scheme"
+        },
+        {
+            "type": "label",
+            "source": "Dracula",
+            "target": "Dracula"
+        },
+        {
+            "type": "label",
+            "source": "Frappe",
+            "target": "Frappe"
+        },
+        {
+            "type": "label",
+            "source": "Macchiato",
+            "target": "Macchiato"
+        },
+        {
+            "type": "label",
+            "source": "Mocha",
+            "target": "Mocha"
+        },
+        {
+            "type": "title",
+            "source": "Dark contrast",
+            "target": "Dark contrast"
+        },
+        {
+            "type": "label",
+            "source": "Black",
+            "target": "Black"
+        },
+        {
+            "type": "label",
+            "source": "Black (Mobile)",
+            "target": "Black (Mobile)"
+        },
+        {
+            "type": "title",
+            "source": "Interface colors",
+            "target": "Interface colors"
+        },
+        {
+            "type": "title",
+            "source": "Primary background",
+            "target": "Primary background"
+        },
+        {
+            "type": "description",
+            "source": "Used in main editor area.",
+            "target": "Used in main editor area."
+        },
+        {
+            "type": "title",
+            "source": "On primary background",
+            "target": "On primary background"
+        },
+        {
+            "type": "description",
+            "source": "Used in blockquotes and tables.",
+            "target": "Used in blockquotes and tables."
+        },
+        {
+            "type": "title",
+            "source": "Secondary background",
+            "target": "Secondary background"
+        },
+        {
+            "type": "description",
+            "source": "Used in sidebars and menus.",
+            "target": "Used in sidebars and menus."
+        },
+        {
+            "type": "title",
+            "source": "On secondary background",
+            "target": "On secondary background"
+        },
+        {
+            "type": "title",
+            "source": "Divider color",
+            "target": "Divider color"
+        },
+        {
+            "type": "description",
+            "source": "Used in separating tabs and sidebars.",
+            "target": "Used in separating tabs and sidebars."
+        },
+        {
+            "type": "title",
+            "source": "Hover background",
+            "target": "Hover background"
+        },
+        {
+            "type": "title",
+            "source": "Borders",
+            "target": "Borders"
+        },
+        {
+            "type": "title",
+            "source": "Border color",
+            "target": "Border color"
+        },
+        {
+            "type": "title",
+            "source": "Border color (Hover)",
+            "target": "Border color (Hover)"
+        },
+        {
+            "type": "title",
+            "source": "Border color (Active)",
+            "target": "Border color (Active)"
+        },
+        {
+            "type": "title",
+            "source": "Elements",
+            "target": "Elements"
+        },
+        {
+            "type": "title",
+            "source": "Interaction background",
+            "target": "Interaction background"
+        },
+        {
+            "type": "description",
+            "source": "Used in buttons, dropdowns, and text inputs.",
+            "target": "Used in buttons, dropdowns, and text inputs."
+        },
+        {
+            "type": "title",
+            "source": "Interaction background (Hover)",
+            "target": "Interaction background (Hover)"
+        },
+        {
+            "type": "title",
+            "source": "Dialog",
+            "target": "Dialog"
+        },
+        {
+            "type": "title",
+            "source": "Command palette background",
+            "target": "Command palette background"
+        },
+        {
+            "type": "title",
+            "source": "Menu background",
+            "target": "Menu background"
+        },
+        {
+            "type": "title",
+            "source": "Modal background",
+            "target": "Modal background"
+        },
+        {
+            "type": "title",
+            "source": "Extended colors",
+            "target": "Extended colors"
+        },
+        {
+            "type": "title",
+            "source": "Red",
+            "target": "Red"
+        },
+        {
+            "type": "title",
+            "source": "Orange",
+            "target": "Orange"
+        },
+        {
+            "type": "title",
+            "source": "Yellow",
+            "target": "Yellow"
+        },
+        {
+            "type": "title",
+            "source": "Green",
+            "target": "Green"
+        },
+        {
+            "type": "title",
+            "source": "Cyan",
+            "target": "Cyan"
+        },
+        {
+            "type": "title",
+            "source": "Blue",
+            "target": "Blue"
+        },
+        {
+            "type": "title",
+            "source": "Purple",
+            "target": "Purple"
+        },
+        {
+            "type": "title",
+            "source": "Pink",
+            "target": "Pink"
+        },
+        {
+            "type": "title",
+            "source": "Icon colors",
+            "target": "Icon colors"
+        },
+        {
+            "type": "title",
+            "source": "Icon color",
+            "target": "Icon color"
+        },
+        {
+            "type": "title",
+            "source": "Icon color (Hover)",
+            "target": "Icon color (Hover)"
+        },
+        {
+            "type": "title",
+            "source": "Icon color (Active)",
+            "target": "Icon color (Active)"
+        },
+        {
+            "type": "title",
+            "source": "Icon color (Focused)",
+            "target": "Icon color (Focused)"
+        },
+        {
+            "type": "title",
+            "source": "Text colors",
+            "target": "Text colors"
+        },
+        {
+            "type": "title",
+            "source": "Primary text color",
+            "target": "Primary text color"
+        },
+        {
+            "type": "title",
+            "source": "Editor text color",
+            "target": "Editor text color"
+        },
+        {
+            "type": "title",
+            "source": "Secondary text color",
+            "target": "Secondary text color"
+        },
+        {
+            "type": "title",
+            "source": "Tertiary text color",
+            "target": "Tertiary text color"
+        },
+        {
+            "type": "title",
+            "source": "Italic text color",
+            "target": "Italic text color"
+        },
+        {
+            "type": "title",
+            "source": "Bold text color",
+            "target": "Bold text color"
+        },
+        {
+            "type": "title",
+            "source": "Highlighted text color",
+            "target": "Highlighted text color"
+        },
+        {
+            "type": "title",
+            "source": "Highlighted text background",
+            "target": "Highlighted text background"
+        },
+        {
+            "type": "title",
+            "source": "Selected text background",
+            "target": "Selected text background"
+        },
+        {
+            "type": "title",
+            "source": "Code colors",
+            "target": "Code colors"
+        },
+        {
+            "type": "title",
+            "source": "Code default",
+            "target": "Code default"
+        },
+        {
+            "type": "title",
+            "source": "Code comments",
+            "target": "Code comments"
+        },
+        {
+            "type": "title",
+            "source": "Code functions",
+            "target": "Code functions"
+        },
+        {
+            "type": "title",
+            "source": "Code keywords",
+            "target": "Code keywords"
+        },
+        {
+            "type": "title",
+            "source": "Code important",
+            "target": "Code important"
+        },
+        {
+            "type": "title",
+            "source": "Code operators",
+            "target": "Code operators"
+        },
+        {
+            "type": "title",
+            "source": "Code properties",
+            "target": "Code properties"
+        },
+        {
+            "type": "title",
+            "source": "Code punctuation",
+            "target": "Code punctuation"
+        },
+        {
+            "type": "title",
+            "source": "Code strings",
+            "target": "Code strings"
+        },
+        {
+            "type": "title",
+            "source": "Code tags",
+            "target": "Code tags"
+        },
+        {
+            "type": "title",
+            "source": "Code values",
+            "target": "Code values"
+        },
+        {
+            "type": "title",
+            "source": "Graph colors",
+            "target": "Graph colors"
+        },
+        {
+            "type": "description",
+            "source": "Requires reloading to apply changes.",
+            "target": "Requires reloading to apply changes."
+        },
+        {
+            "type": "title",
+            "source": "Line color",
+            "target": "Line color"
+        },
+        {
+            "type": "title",
+            "source": "Node color",
+            "target": "Node color"
+        },
+        {
+            "type": "title",
+            "source": "Active node color",
+            "target": "Active node color"
+        },
+        {
+            "type": "title",
+            "source": "Tag node color",
+            "target": "Tag node color"
+        },
+        {
+            "type": "title",
+            "source": "Attachment node color",
+            "target": "Attachment node color"
+        },
+        {
+            "type": "title",
+            "source": "Unresolved node color",
+            "target": "Unresolved node color"
+        },
+        {
+            "type": "title",
+            "source": "Interface",
+            "target": "Interface"
+        },
+        {
+            "type": "title",
+            "source": "Interface font",
+            "target": "Interface font"
+        },
+        {
+            "type": "title",
+            "source": "Density",
+            "target": "Density"
+        },
+        {
+            "type": "title",
+            "source": "Roundness",
+            "target": "Roundness"
+        },
+        {
+            "type": "title",
+            "source": "Icon thickness",
+            "target": "Icon thickness"
+        },
+        {
+            "type": "title",
+            "source": "Workspace",
+            "target": "Workspace"
+        },
+        {
+            "type": "label",
+            "source": "Fusion",
+            "target": "Fusion"
+        },
+        {
+            "type": "label",
+            "source": "macOS",
+            "target": "macOS"
+        },
+        {
+            "type": "label",
+            "source": "Classic",
+            "target": "Classic"
+        },
+        {
+            "type": "label",
+            "source": "Cards",
+            "target": "Cards"
+        },
+        {
+            "type": "label",
+            "source": "Border",
+            "target": "Border"
+        },
+        {
+            "type": "label",
+            "source": "Frame",
+            "target": "Frame"
+        },
+        {
+            "type": "label",
+            "source": "Viewfinder",
+            "target": "Viewfinder"
+        },
+        {
+            "type": "title",
+            "source": "Personality",
+            "target": "Personality"
+        },
+        {
+            "type": "label",
+            "source": "Fluent",
+            "target": "Fluent"
+        },
+        {
+            "type": "label",
+            "source": "Tactile",
+            "target": "Tactile"
+        },
+        {
+            "type": "title",
+            "source": "Status bar",
+            "target": "Status bar"
+        },
+        {
+            "type": "label",
+            "source": "Full width",
+            "target": "Full width"
+        },
+        {
+            "type": "title",
+            "source": "Accessibility",
+            "target": "Accessibility"
+        },
+        {
+            "type": "title",
+            "source": "Reduce contrast change",
+            "target": "Reduce contrast change"
+        },
+        {
+            "type": "description",
+            "source": "Minimize contrast shifts when window loses focus.",
+            "target": "Minimize contrast shifts when window loses focus."
+        },
+        {
+            "type": "title",
+            "source": "Reduce motion",
+            "target": "Reduce motion"
+        },
+        {
+            "type": "description",
+            "source": "Minimize animation effects.",
+            "target": "Minimize animation effects."
+        },
+        {
+            "type": "title",
+            "source": "Standard font size",
+            "target": "Standard font size"
+        },
+        {
+            "type": "description",
+            "source": "Disable operating system-based dynamic font sizes.",
+            "target": "Disable operating system-based dynamic font sizes."
+        },
+        {
+            "type": "title",
+            "source": "Interface font size",
+            "target": "Interface font size"
+        },
+        {
+            "type": "description",
+            "source": "Fine-tune interface text size.",
+            "target": "Fine-tune interface text size."
+        },
+        {
+            "type": "title",
+            "source": "Icon size",
+            "target": "Icon size"
+        },
+        {
+            "type": "description",
+            "source": "Fine-tune icon size.",
+            "target": "Fine-tune icon size."
+        },
+        {
+            "type": "title",
+            "source": "Animation",
+            "target": "Animation"
+        },
+        {
+            "type": "title",
+            "source": "Animation personality",
+            "target": "Animation personality"
+        },
+        {
+            "type": "label",
+            "source": "Playful",
+            "target": "Playful"
+        },
+        {
+            "type": "label",
+            "source": "Sharp",
+            "target": "Sharp"
+        },
+        {
+            "type": "label",
+            "source": "Refined",
+            "target": "Refined"
+        },
+        {
+            "type": "title",
+            "source": "Animation speed",
+            "target": "Animation speed"
+        },
+        {
+            "type": "title",
+            "source": "Tabs",
+            "target": "Tabs"
+        },
+        {
+            "type": "title",
+            "source": "Tab bar height",
+            "target": "Tab bar height"
+        },
+        {
+            "type": "title",
+            "source": "Editor tab style",
+            "target": "Editor tab style"
+        },
+        {
+            "type": "label",
+            "source": "Floating",
+            "target": "Floating"
+        },
+        {
+            "type": "label",
+            "source": "Floating (Center)",
+            "target": "Floating (Center)"
+        },
+        {
+            "type": "label",
+            "source": "Underline",
+            "target": "Underline"
+        },
+        {
+            "type": "label",
+            "source": "Underline (Accented)",
+            "target": "Underline (Accented)"
+        },
+        {
+            "type": "title",
+            "source": "Editor tab label alignment",
+            "target": "Editor tab label alignment"
+        },
+        {
+            "type": "label",
+            "source": "Left",
+            "target": "Left"
+        },
+        {
+            "type": "label",
+            "source": "Center",
+            "target": "Center"
+        },
+        {
+            "type": "title",
+            "source": "Editor tab divider",
+            "target": "Editor tab divider"
+        },
+        {
+            "type": "title",
+            "source": "Full width tabs",
+            "target": "Full width tabs"
+        },
+        {
+            "type": "title",
+            "source": "Tab stacks",
+            "target": "Tab stacks"
+        },
+        {
+            "type": "title",
+            "source": "Stacked tab width",
+            "target": "Stacked tab width"
+        },
+        {
+            "type": "title",
+            "source": "Spine width",
+            "target": "Spine width"
+        },
+        {
+            "type": "title",
+            "source": "Spine text orientation",
+            "target": "Spine text orientation"
+        },
+        {
+            "type": "label",
+            "source": "Top",
+            "target": "Top"
+        },
+        {
+            "type": "label",
+            "source": "Top flipped",
+            "target": "Top flipped"
+        },
+        {
+            "type": "label",
+            "source": "Bottom",
+            "target": "Bottom"
+        },
+        {
+            "type": "label",
+            "source": "Bottom flipped",
+            "target": "Bottom flipped"
+        },
+        {
+            "type": "label",
+            "source": "Center flipped",
+            "target": "Center flipped"
+        },
+        {
+            "type": "title",
+            "source": "Spine element order",
+            "target": "Spine element order"
+        },
+        {
+            "type": "label",
+            "source": "Default",
+            "target": "Default"
+        },
+        {
+            "type": "label",
+            "source": "Reversed",
+            "target": "Reversed"
+        },
+        {
+            "type": "title",
+            "source": "Tab title bar",
+            "target": "Tab title bar"
+        },
+        {
+            "type": "description",
+            "source": "Requires **Show tab title bar** in **Appearance** settings.",
+            "target": "Requires **Show tab title bar** in **Appearance** settings."
+        },
+        {
+            "type": "title",
+            "source": "Tab title visibility",
+            "target": "Tab title visibility"
+        },
+        {
+            "type": "label",
+            "source": "Always",
+            "target": "Always"
+        },
+        {
+            "type": "label",
+            "source": "Hover only",
+            "target": "Hover only"
+        },
+        {
+            "type": "label",
+            "source": "Hidden",
+            "target": "Hidden"
+        },
+        {
+            "type": "title",
+            "source": "Tab title font size",
+            "target": "Tab title font size"
+        },
+        {
+            "type": "title",
+            "source": "Tab title font weight",
+            "target": "Tab title font weight"
+        },
+        {
+            "type": "title",
+            "source": "Tab title alignment",
+            "target": "Tab title alignment"
+        },
+        {
+            "type": "title",
+            "source": "Sidebars",
+            "target": "Sidebars"
+        },
+        {
+            "type": "title",
+            "source": "Tab style (Left top)",
+            "target": "Tab style (Left top)"
+        },
+        {
+            "type": "label",
+            "source": "Stacked",
+            "target": "Stacked"
+        },
+        {
+            "type": "label",
+            "source": "Labeled",
+            "target": "Labeled"
+        },
+        {
+            "type": "label",
+            "source": "Dropdown",
+            "target": "Dropdown"
+        },
+        {
+            "type": "label",
+            "source": "Glyph",
+            "target": "Glyph"
+        },
+        {
+            "type": "label",
+            "source": "Text",
+            "target": "Text"
+        },
+        {
+            "type": "title",
+            "source": "Tab style (Left)",
+            "target": "Tab style (Left)"
+        },
+        {
+            "type": "label",
+            "source": "Compact",
+            "target": "Compact"
+        },
+        {
+            "type": "title",
+            "source": "Tab style (Right top)",
+            "target": "Tab style (Right top)"
+        },
+        {
+            "type": "title",
+            "source": "Tab style (Right)",
+            "target": "Tab style (Right)"
+        },
+        {
+            "type": "title",
+            "source": "Panel actions",
+            "target": "Panel actions"
+        },
+        {
+            "type": "label",
+            "source": "Dot",
+            "target": "Dot"
+        },
+        {
+            "type": "label",
+            "source": "Indicator",
+            "target": "Indicator"
+        },
+        {
+            "type": "title",
+            "source": "Always show vault switcher",
+            "target": "Always show vault switcher"
+        },
+        {
+            "type": "title",
+            "source": "Hover reveal",
+            "target": "Hover reveal"
+        },
+        {
+            "type": "title",
+            "source": "Hover ribbon",
+            "target": "Hover ribbon"
+        },
+        {
+            "type": "description",
+            "source": "Reveal ribbon by hovering over left window edge.",
+            "target": "Reveal ribbon by hovering over left window edge."
+        },
+        {
+            "type": "title",
+            "source": "Hover sidebars",
+            "target": "Hover sidebars"
+        },
+        {
+            "type": "description",
+            "source": "Reveal collapsed sidebars by hovering over window edges.",
+            "target": "Reveal collapsed sidebars by hovering over window edges."
+        },
+        {
+            "type": "title",
+            "source": "Hover trigger area",
+            "target": "Hover trigger area"
+        },
+        {
+            "type": "label",
+            "source": "Edge",
+            "target": "Edge"
+        },
+        {
+            "type": "label",
+            "source": "Small",
+            "target": "Small"
+        },
+        {
+            "type": "label",
+            "source": "Medium",
+            "target": "Medium"
+        },
+        {
+            "type": "label",
+            "source": "Large",
+            "target": "Large"
+        },
+        {
+            "type": "title",
+            "source": "Hover sidebars width",
+            "target": "Hover sidebars width"
+        },
+        {
+            "type": "title",
+            "source": "Hover sidebars delay",
+            "target": "Hover sidebars delay"
+        },
+        {
+            "type": "title",
+            "source": "Discard interactions",
+            "target": "Discard interactions"
+        },
+        {
+            "type": "description",
+            "source": "Always collapse hover sidebars after cursor leaving.",
+            "target": "Always collapse hover sidebars after cursor leaving."
+        },
+        {
+            "type": "title",
+            "source": "File explorer",
+            "target": "File explorer"
+        },
+        {
+            "type": "title",
+            "source": "Active file style",
+            "target": "Active file style"
+        },
+        {
+            "type": "label",
+            "source": "Subtle",
+            "target": "Subtle"
+        },
+        {
+            "type": "label",
+            "source": "Strong",
+            "target": "Strong"
+        },
+        {
+            "type": "title",
+            "source": "Colorful folders",
+            "target": "Colorful folders"
+        },
+        {
+            "type": "label",
+            "source": "None",
+            "target": "None"
+        },
+        {
+            "type": "label",
+            "source": "Monochrome",
+            "target": "Monochrome"
+        },
+        {
+            "type": "title",
+            "source": "Item name size",
+            "target": "Item name size"
+        },
+        {
+            "type": "title",
+            "source": "Full item name",
+            "target": "Full item name"
+        },
+        {
+            "type": "title",
+            "source": "Bold folders name",
+            "target": "Bold folders name"
+        },
+        {
+            "type": "title",
+            "source": "Large new note button",
+            "target": "Large new note button"
+        },
+        {
+            "type": "title",
+            "source": "Indentation guides thickness",
+            "target": "Indentation guides thickness"
+        },
+        {
+            "type": "title",
+            "source": "Indentation guides color",
+            "target": "Indentation guides color"
+        },
+        {
+            "type": "label",
+            "source": "Accent color",
+            "target": "Accent color"
+        },
+        {
+            "type": "title",
+            "source": "Mobile",
+            "target": "Mobile"
+        },
+        {
+            "type": "title",
+            "source": "Informative full screen",
+            "target": "Informative full screen"
+        },
+        {
+            "type": "description",
+            "source": "Display current page title when interface elements are hidden.",
+            "target": "Display current page title when interface elements are hidden."
+        },
+        {
+            "type": "title",
+            "source": "Horizontal tab list",
+            "target": "Horizontal tab list"
+        },
+        {
+            "type": "title",
+            "source": "Sidebar width",
+            "target": "Sidebar width"
+        },
+        {
+            "type": "title",
+            "source": "Tablet sidebar width (Left)",
+            "target": "Tablet sidebar width (Left)"
+        },
+        {
+            "type": "title",
+            "source": "Tablet sidebar width (Right)",
+            "target": "Tablet sidebar width (Right)"
+        },
+        {
+            "type": "title",
+            "source": "Tablet pinned sidebar width (Left)",
+            "target": "Tablet pinned sidebar width (Left)"
+        },
+        {
+            "type": "title",
+            "source": "Tablet pinned sidebar width (Right)",
+            "target": "Tablet pinned sidebar width (Right)"
+        },
+        {
+            "type": "title",
+            "source": "Settings",
+            "target": "Settings"
+        },
+        {
+            "type": "title",
+            "source": "Plugins list view",
+            "target": "Plugins list view"
+        },
+        {
+            "type": "description",
+            "source": "Disable plugins grid layout.",
+            "target": "Disable plugins grid layout."
+        },
+        {
+            "type": "title",
+            "source": "Frame title",
+            "target": "Frame title"
+        },
+        {
+            "type": "description",
+            "source": "Requires **Obsidian frame** in **Appearance** settings.",
+            "target": "Requires **Obsidian frame** in **Appearance** settings."
+        },
+        {
+            "type": "title",
+            "source": "Hide frame title",
+            "target": "Hide frame title"
+        },
+        {
+            "type": "title",
+            "source": "Frame title font weight",
+            "target": "Frame title font weight"
+        },
+        {
+            "type": "title",
+            "source": "Tinted frame",
+            "target": "Tinted frame"
+        },
+        {
+            "type": "title",
+            "source": "Tinted frame background",
+            "target": "Tinted frame background"
+        },
+        {
+            "type": "title",
+            "source": "Tinted frame icon color",
+            "target": "Tinted frame icon color"
+        },
+        {
+            "type": "title",
+            "source": "Translucency",
+            "target": "Translucency"
+        },
+        {
+            "type": "description",
+            "source": "Requires **Translucent window** in **Appearance** settings.",
+            "target": "Requires **Translucent window** in **Appearance** settings."
+        },
+        {
+            "type": "title",
+            "source": "Light translucent window opacity",
+            "target": "Light translucent window opacity"
+        },
+        {
+            "type": "title",
+            "source": "Dark translucent window opacity",
+            "target": "Dark translucent window opacity"
+        },
+        {
+            "type": "title",
+            "source": "Editor",
+            "target": "Editor"
+        },
+        {
+            "type": "title",
+            "source": "Editor font",
+            "target": "Editor font"
+        },
+        {
+            "type": "title",
+            "source": "Monospace font",
+            "target": "Monospace font"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph spacing",
+            "target": "Paragraph spacing"
+        },
+        {
+            "type": "title",
+            "source": "Focus view",
+            "target": "Focus view"
+        },
+        {
+            "type": "description",
+            "source": "Hide tabs and table title bar when both sidebars are collapsed.",
+            "target": "Hide tabs and table title bar when both sidebars are collapsed."
+        },
+        {
+            "type": "title",
+            "source": "Disable quick mode switcher",
+            "target": "Disable quick mode switcher"
+        },
+        {
+            "type": "description",
+            "source": "Display editor mode toggle at the top of the editor.",
+            "target": "Display editor mode toggle at the top of the editor."
+        },
+        {
+            "type": "title",
+            "source": "Active line",
+            "target": "Active line"
+        },
+        {
+            "type": "title",
+            "source": "Active line highlight style",
+            "target": "Active line highlight style"
+        },
+        {
+            "type": "label",
+            "source": "Block background",
+            "target": "Block background"
+        },
+        {
+            "type": "label",
+            "source": "Line background",
+            "target": "Line background"
+        },
+        {
+            "type": "title",
+            "source": "Active line highlight color",
+            "target": "Active line highlight color"
+        },
+        {
+            "type": "title",
+            "source": "Block width",
+            "target": "Block width"
+        },
+        {
+            "type": "description",
+            "source": "Requires **Readable line length** in **Editor** settings. [Usage guide](https://github.com/aaaaalexis/obsidian-baseline#block-width)",
+            "target": "Requires **Readable line length** in **Editor** settings. [Usage guide](https://github.com/aaaaalexis/obsidian-baseline#block-width)"
+        },
+        {
+            "type": "title",
+            "source": "Disable block width",
+            "target": "Disable block width"
+        },
+        {
+            "type": "title",
+            "source": "Default line width",
+            "target": "Default line width"
+        },
+        {
+            "type": "title",
+            "source": "Wide line width",
+            "target": "Wide line width"
+        },
+        {
+            "type": "title",
+            "source": "Table block width",
+            "target": "Table block width"
+        },
+        {
+            "type": "label",
+            "source": "Maximum line width",
+            "target": "Maximum line width"
+        },
+        {
+            "type": "label",
+            "source": "100% pane width",
+            "target": "100% pane width"
+        },
+        {
+            "type": "title",
+            "source": "Bases block width",
+            "target": "Bases block width"
+        },
+        {
+            "type": "title",
+            "source": "Image block width",
+            "target": "Image block width"
+        },
+        {
+            "type": "title",
+            "source": "Inline title",
+            "target": "Inline title"
+        },
+        {
+            "type": "description",
+            "source": "Requires **Show inline title** in **Appearance** settings.",
+            "target": "Requires **Show inline title** in **Appearance** settings."
+        },
+        {
+            "type": "title",
+            "source": "Inline title font",
+            "target": "Inline title font"
+        },
+        {
+            "type": "title",
+            "source": "Inline title font size",
+            "target": "Inline title font size"
+        },
+        {
+            "type": "title",
+            "source": "Inline title alignment",
+            "target": "Inline title alignment"
+        },
+        {
+            "type": "label",
+            "source": "Start",
+            "target": "Start"
+        },
+        {
+            "type": "title",
+            "source": "Inline title font weight",
+            "target": "Inline title font weight"
+        },
+        {
+            "type": "title",
+            "source": "Inline title text color",
+            "target": "Inline title text color"
+        },
+        {
+            "type": "title",
+            "source": "Properties",
+            "target": "Properties"
+        },
+        {
+            "type": "title",
+            "source": "Property style",
+            "target": "Property style"
+        },
+        {
+            "type": "label",
+            "source": "Block",
+            "target": "Block"
+        },
+        {
+            "type": "title",
+            "source": "Add property button visibility",
+            "target": "Add property button visibility"
+        },
+        {
+            "type": "title",
+            "source": "Property name width",
+            "target": "Property name width"
+        },
+        {
+            "type": "title",
+            "source": "Compact properties",
+            "target": "Compact properties"
+        },
+        {
+            "type": "title",
+            "source": "Show list as tags",
+            "target": "Show list as tags"
+        },
+        {
+            "type": "title",
+            "source": "Show longer text",
+            "target": "Show longer text"
+        },
+        {
+            "type": "title",
+            "source": "Hide property heading",
+            "target": "Hide property heading"
+        },
+        {
+            "type": "title",
+            "source": "Hide property icons",
+            "target": "Hide property icons"
+        },
+        {
+            "type": "title",
+            "source": "Headings",
+            "target": "Headings"
+        },
+        {
+            "type": "title",
+            "source": "Heading spacing",
+            "target": "Heading spacing"
+        },
+        {
+            "type": "description",
+            "source": "Adjust space between headings and paragraphs.",
+            "target": "Adjust space between headings and paragraphs."
+        },
+        {
+            "type": "title",
+            "source": "Readable spacing",
+            "target": "Readable spacing"
+        },
+        {
+            "type": "description",
+            "source": "Use tighter spacing in editor.",
+            "target": "Use tighter spacing in editor."
+        },
+        {
+            "type": "title",
+            "source": "Readable spacing modifier",
+            "target": "Readable spacing modifier"
+        },
+        {
+            "type": "description",
+            "source": "Relative to paragraph spacing value.",
+            "target": "Relative to paragraph spacing value."
+        },
+        {
+            "type": "title",
+            "source": "Colorful headings",
+            "target": "Colorful headings"
+        },
+        {
+            "type": "title",
+            "source": "Colored heading text",
+            "target": "Colored heading text"
+        },
+        {
+            "type": "title",
+            "source": "Heading indicator",
+            "target": "Heading indicator"
+        },
+        {
+            "type": "title",
+            "source": "Heading background",
+            "target": "Heading background"
+        },
+        {
+            "type": "title",
+            "source": "Full width background",
+            "target": "Full width background"
+        },
+        {
+            "type": "description",
+            "source": "Colorful headings color follow individual heading settings below.",
+            "target": "Colorful headings color follow individual heading settings below."
+        },
+        {
+            "type": "title",
+            "source": "Level 1 Headings",
+            "target": "Level 1 Headings"
+        },
+        {
+            "type": "title",
+            "source": "H1 color",
+            "target": "H1 color"
+        },
+        {
+            "type": "title",
+            "source": "H1 font",
+            "target": "H1 font"
+        },
+        {
+            "type": "title",
+            "source": "H1 font size",
+            "target": "H1 font size"
+        },
+        {
+            "type": "title",
+            "source": "H1 font weight",
+            "target": "H1 font weight"
+        },
+        {
+            "type": "title",
+            "source": "H1 font variant",
+            "target": "H1 font variant"
+        },
+        {
+            "type": "label",
+            "source": "Small caps",
+            "target": "Small caps"
+        },
+        {
+            "type": "label",
+            "source": "All small caps",
+            "target": "All small caps"
+        },
+        {
+            "type": "title",
+            "source": "H1 font style",
+            "target": "H1 font style"
+        },
+        {
+            "type": "label",
+            "source": "Italic",
+            "target": "Italic"
+        },
+        {
+            "type": "title",
+            "source": "H1 text case",
+            "target": "H1 text case"
+        },
+        {
+            "type": "label",
+            "source": "Capitalize",
+            "target": "Capitalize"
+        },
+        {
+            "type": "label",
+            "source": "Uppercase",
+            "target": "Uppercase"
+        },
+        {
+            "type": "label",
+            "source": "Lowercase",
+            "target": "Lowercase"
+        },
+        {
+            "type": "title",
+            "source": "H1 alignment",
+            "target": "H1 alignment"
+        },
+        {
+            "type": "title",
+            "source": "H1 divider",
+            "target": "H1 divider"
+        },
+        {
+            "type": "title",
+            "source": "Level 2 Headings",
+            "target": "Level 2 Headings"
+        },
+        {
+            "type": "title",
+            "source": "H2 color",
+            "target": "H2 color"
+        },
+        {
+            "type": "title",
+            "source": "H2 font",
+            "target": "H2 font"
+        },
+        {
+            "type": "title",
+            "source": "H2 font size",
+            "target": "H2 font size"
+        },
+        {
+            "type": "title",
+            "source": "H2 font weight",
+            "target": "H2 font weight"
+        },
+        {
+            "type": "title",
+            "source": "H2 font variant",
+            "target": "H2 font variant"
+        },
+        {
+            "type": "title",
+            "source": "H2 font style",
+            "target": "H2 font style"
+        },
+        {
+            "type": "title",
+            "source": "H2 text case",
+            "target": "H2 text case"
+        },
+        {
+            "type": "title",
+            "source": "H2 alignment",
+            "target": "H2 alignment"
+        },
+        {
+            "type": "title",
+            "source": "H2 divider",
+            "target": "H2 divider"
+        },
+        {
+            "type": "title",
+            "source": "Level 3 Headings",
+            "target": "Level 3 Headings"
+        },
+        {
+            "type": "title",
+            "source": "H3 color",
+            "target": "H3 color"
+        },
+        {
+            "type": "title",
+            "source": "H3 font",
+            "target": "H3 font"
+        },
+        {
+            "type": "title",
+            "source": "H3 font size",
+            "target": "H3 font size"
+        },
+        {
+            "type": "title",
+            "source": "H3 font weight",
+            "target": "H3 font weight"
+        },
+        {
+            "type": "title",
+            "source": "H3 font variant",
+            "target": "H3 font variant"
+        },
+        {
+            "type": "title",
+            "source": "H3 font style",
+            "target": "H3 font style"
+        },
+        {
+            "type": "title",
+            "source": "H3 text case",
+            "target": "H3 text case"
+        },
+        {
+            "type": "title",
+            "source": "H3 alignment",
+            "target": "H3 alignment"
+        },
+        {
+            "type": "title",
+            "source": "H3 divider",
+            "target": "H3 divider"
+        },
+        {
+            "type": "title",
+            "source": "Level 4 Headings",
+            "target": "Level 4 Headings"
+        },
+        {
+            "type": "title",
+            "source": "H4 color",
+            "target": "H4 color"
+        },
+        {
+            "type": "title",
+            "source": "H4 font",
+            "target": "H4 font"
+        },
+        {
+            "type": "title",
+            "source": "H4 font size",
+            "target": "H4 font size"
+        },
+        {
+            "type": "title",
+            "source": "H4 font weight",
+            "target": "H4 font weight"
+        },
+        {
+            "type": "title",
+            "source": "H4 font variant",
+            "target": "H4 font variant"
+        },
+        {
+            "type": "title",
+            "source": "H4 font style",
+            "target": "H4 font style"
+        },
+        {
+            "type": "title",
+            "source": "H4 text case",
+            "target": "H4 text case"
+        },
+        {
+            "type": "title",
+            "source": "H4 alignment",
+            "target": "H4 alignment"
+        },
+        {
+            "type": "title",
+            "source": "H4 divider",
+            "target": "H4 divider"
+        },
+        {
+            "type": "title",
+            "source": "Level 5 Headings",
+            "target": "Level 5 Headings"
+        },
+        {
+            "type": "title",
+            "source": "H5 color",
+            "target": "H5 color"
+        },
+        {
+            "type": "title",
+            "source": "H5 font",
+            "target": "H5 font"
+        },
+        {
+            "type": "title",
+            "source": "H5 font size",
+            "target": "H5 font size"
+        },
+        {
+            "type": "title",
+            "source": "H5 font weight",
+            "target": "H5 font weight"
+        },
+        {
+            "type": "title",
+            "source": "H5 font variant",
+            "target": "H5 font variant"
+        },
+        {
+            "type": "title",
+            "source": "H5 font style",
+            "target": "H5 font style"
+        },
+        {
+            "type": "title",
+            "source": "H5 text case",
+            "target": "H5 text case"
+        },
+        {
+            "type": "title",
+            "source": "H5 alignment",
+            "target": "H5 alignment"
+        },
+        {
+            "type": "title",
+            "source": "H5 divider",
+            "target": "H5 divider"
+        },
+        {
+            "type": "title",
+            "source": "Level 6 Headings",
+            "target": "Level 6 Headings"
+        },
+        {
+            "type": "title",
+            "source": "H6 color",
+            "target": "H6 color"
+        },
+        {
+            "type": "title",
+            "source": "H6 font",
+            "target": "H6 font"
+        },
+        {
+            "type": "title",
+            "source": "H6 font size",
+            "target": "H6 font size"
+        },
+        {
+            "type": "title",
+            "source": "H6 font weight",
+            "target": "H6 font weight"
+        },
+        {
+            "type": "title",
+            "source": "H6 font variant",
+            "target": "H6 font variant"
+        },
+        {
+            "type": "title",
+            "source": "H6 font style",
+            "target": "H6 font style"
+        },
+        {
+            "type": "title",
+            "source": "H6 text case",
+            "target": "H6 text case"
+        },
+        {
+            "type": "title",
+            "source": "H6 alignment",
+            "target": "H6 alignment"
+        },
+        {
+            "type": "title",
+            "source": "H6 divider",
+            "target": "H6 divider"
+        },
+        {
+            "type": "title",
+            "source": "Horizontal rule",
+            "target": "Horizontal rule"
+        },
+        {
+            "type": "title",
+            "source": "Horizontal rule color",
+            "target": "Horizontal rule color"
+        },
+        {
+            "type": "title",
+            "source": "Horizontal rule width",
+            "target": "Horizontal rule width"
+        },
+        {
+            "type": "title",
+            "source": "Horizontal rule thickness",
+            "target": "Horizontal rule thickness"
+        },
+        {
+            "type": "title",
+            "source": "Horizontal rule alignment",
+            "target": "Horizontal rule alignment"
+        },
+        {
+            "type": "label",
+            "source": "End",
+            "target": "End"
+        },
+        {
+            "type": "title",
+            "source": "Dashed horizontal rule",
+            "target": "Dashed horizontal rule"
+        },
+        {
+            "type": "title",
+            "source": "Dashed line size",
+            "target": "Dashed line size"
+        },
+        {
+            "type": "title",
+            "source": "Dashed line spacing",
+            "target": "Dashed line spacing"
+        },
+        {
+            "type": "title",
+            "source": "Banner",
+            "target": "Banner"
+        },
+        {
+            "type": "title",
+            "source": "Disable banner",
+            "target": "Disable banner"
+        },
+        {
+            "type": "title",
+            "source": "Banner icon size",
+            "target": "Banner icon size"
+        },
+        {
+            "type": "title",
+            "source": "Banner image height",
+            "target": "Banner image height"
+        },
+        {
+            "type": "title",
+            "source": "Banner image height (Mobile)",
+            "target": "Banner image height (Mobile)"
+        },
+        {
+            "type": "title",
+            "source": "Banner image side spacing",
+            "target": "Banner image side spacing"
+        },
+        {
+            "type": "title",
+            "source": "Banner image radius",
+            "target": "Banner image radius"
+        },
+        {
+            "type": "title",
+            "source": "Banner image fit",
+            "target": "Banner image fit"
+        },
+        {
+            "type": "label",
+            "source": "Cover",
+            "target": "Cover"
+        },
+        {
+            "type": "label",
+            "source": "Contain",
+            "target": "Contain"
+        },
+        {
+            "type": "label",
+            "source": "Fill",
+            "target": "Fill"
+        },
+        {
+            "type": "title",
+            "source": "Bases",
+            "target": "Bases"
+        },
+        {
+            "type": "title",
+            "source": "Toolbar text label",
+            "target": "Toolbar text label"
+        },
+        {
+            "type": "label",
+            "source": "Visible",
+            "target": "Visible"
+        },
+        {
+            "type": "title",
+            "source": "Table header icons",
+            "target": "Table header icons"
+        },
+        {
+            "type": "title",
+            "source": "Table vertical alignment",
+            "target": "Table vertical alignment"
+        },
+        {
+            "type": "title",
+            "source": "Alternating row background",
+            "target": "Alternating row background"
+        },
+        {
+            "type": "title",
+            "source": "Alternating column background",
+            "target": "Alternating column background"
+        },
+        {
+            "type": "title",
+            "source": "Blockquotes",
+            "target": "Blockquotes"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote style",
+            "target": "Blockquote style"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote border thickness",
+            "target": "Blockquote border thickness"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote font size",
+            "target": "Blockquote font size"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote font style",
+            "target": "Blockquote font style"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote text color",
+            "target": "Blockquote text color"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote background",
+            "target": "Blockquote background"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote border color",
+            "target": "Blockquote border color"
+        },
+        {
+            "type": "title",
+            "source": "Card minimum width",
+            "target": "Card minimum width"
+        },
+        {
+            "type": "title",
+            "source": "Card maximum width",
+            "target": "Card maximum width"
+        },
+        {
+            "type": "title",
+            "source": "Card minimum width (Mobile)",
+            "target": "Card minimum width (Mobile)"
+        },
+        {
+            "type": "title",
+            "source": "Card padding",
+            "target": "Card padding"
+        },
+        {
+            "type": "title",
+            "source": "Card maximum image height",
+            "target": "Card maximum image height"
+        },
+        {
+            "type": "title",
+            "source": "Card background",
+            "target": "Card background"
+        },
+        {
+            "type": "title",
+            "source": "Card background (Hover)",
+            "target": "Card background (Hover)"
+        },
+        {
+            "type": "title",
+            "source": "Callouts",
+            "target": "Callouts"
+        },
+        {
+            "type": "title",
+            "source": "Callout style",
+            "target": "Callout style"
+        },
+        {
+            "type": "label",
+            "source": "Filled",
+            "target": "Filled"
+        },
+        {
+            "type": "label",
+            "source": "Padded",
+            "target": "Padded"
+        },
+        {
+            "type": "label",
+            "source": "Outlined",
+            "target": "Outlined"
+        },
+        {
+            "type": "title",
+            "source": "Callout font size",
+            "target": "Callout font size"
+        },
+        {
+            "type": "title",
+            "source": "Disable custom icons",
+            "target": "Disable custom icons"
+        },
+        {
+            "type": "description",
+            "source": "Use default Lucide icons in callouts.",
+            "target": "Use default Lucide icons in callouts."
+        },
+        {
+            "type": "title",
+            "source": "Canvas",
+            "target": "Canvas"
+        },
+        {
+            "type": "title",
+            "source": "Canvas background",
+            "target": "Canvas background"
+        },
+        {
+            "type": "title",
+            "source": "Canvas dot pattern",
+            "target": "Canvas dot pattern"
+        },
+        {
+            "type": "title",
+            "source": "Code",
+            "target": "Code"
+        },
+        {
+            "type": "title",
+            "source": "Code style",
+            "target": "Code style"
+        },
+        {
+            "type": "title",
+            "source": "Code font size",
+            "target": "Code font size"
+        },
+        {
+            "type": "title",
+            "source": "Code background",
+            "target": "Code background"
+        },
+        {
+            "type": "title",
+            "source": "Code line numbers",
+            "target": "Code line numbers"
+        },
+        {
+            "type": "title",
+            "source": "Disable line wrap",
+            "target": "Disable line wrap"
+        },
+        {
+            "type": "title",
+            "source": "Embeds",
+            "target": "Embeds"
+        },
+        {
+            "type": "title",
+            "source": "Embed maximum height",
+            "target": "Embed maximum height"
+        },
+        {
+            "type": "title",
+            "source": "Embed style",
+            "target": "Embed style"
+        },
+        {
+            "type": "label",
+            "source": "Clean",
+            "target": "Clean"
+        },
+        {
+            "type": "title",
+            "source": "Embed background",
+            "target": "Embed background"
+        },
+        {
+            "type": "title",
+            "source": "Embed border color",
+            "target": "Embed border color"
+        },
+        {
+            "type": "title",
+            "source": "Embed border thickness",
+            "target": "Embed border thickness"
+        },
+        {
+            "type": "title",
+            "source": "Hide embed titles",
+            "target": "Hide embed titles"
+        },
+        {
+            "type": "title",
+            "source": "Links",
+            "target": "Links"
+        },
+        {
+            "type": "title",
+            "source": "Internal link color",
+            "target": "Internal link color"
+        },
+        {
+            "type": "title",
+            "source": "Internal link color (Hover)",
+            "target": "Internal link color (Hover)"
+        },
+        {
+            "type": "title",
+            "source": "Internal link underline",
+            "target": "Internal link underline"
+        },
+        {
+            "type": "title",
+            "source": "External link color",
+            "target": "External link color"
+        },
+        {
+            "type": "title",
+            "source": "External link color (Hover)",
+            "target": "External link color (Hover)"
+        },
+        {
+            "type": "title",
+            "source": "External link underline",
+            "target": "External link underline"
+        },
+        {
+            "type": "title",
+            "source": "Lists & Tasks",
+            "target": "Lists & Tasks"
+        },
+        {
+            "type": "title",
+            "source": "List spacing",
+            "target": "List spacing"
+        },
+        {
+            "type": "title",
+            "source": "List order style",
+            "target": "List order style"
+        },
+        {
+            "type": "label",
+            "source": "Decimal",
+            "target": "Decimal"
+        },
+        {
+            "type": "label",
+            "source": "Decimal with leading zeroes",
+            "target": "Decimal with leading zeroes"
+        },
+        {
+            "type": "label",
+            "source": "Lowercase alphabetical",
+            "target": "Lowercase alphabetical"
+        },
+        {
+            "type": "label",
+            "source": "Uppercase alphabetical",
+            "target": "Uppercase alphabetical"
+        },
+        {
+            "type": "label",
+            "source": "Lowercase Roman Numerals",
+            "target": "Lowercase Roman Numerals"
+        },
+        {
+            "type": "label",
+            "source": "Uppercase Roman Numerals",
+            "target": "Uppercase Roman Numerals"
+        },
+        {
+            "type": "label",
+            "source": "Lowercase Latin",
+            "target": "Lowercase Latin"
+        },
+        {
+            "type": "label",
+            "source": "Uppercase Latin",
+            "target": "Uppercase Latin"
+        },
+        {
+            "type": "label",
+            "source": "Lowercase Greek",
+            "target": "Lowercase Greek"
+        },
+        {
+            "type": "label",
+            "source": "Uppercase Greek",
+            "target": "Uppercase Greek"
+        },
+        {
+            "type": "label",
+            "source": "Hiragana",
+            "target": "Hiragana"
+        },
+        {
+            "type": "label",
+            "source": "Hiragana Iroha",
+            "target": "Hiragana Iroha"
+        },
+        {
+            "type": "label",
+            "source": "Katakana",
+            "target": "Katakana"
+        },
+        {
+            "type": "label",
+            "source": "Katakana Iroha",
+            "target": "Katakana Iroha"
+        },
+        {
+            "type": "label",
+            "source": "Armenian",
+            "target": "Armenian"
+        },
+        {
+            "type": "label",
+            "source": "CJK Ideographic",
+            "target": "CJK Ideographic"
+        },
+        {
+            "type": "label",
+            "source": "Hebrew",
+            "target": "Hebrew"
+        },
+        {
+            "type": "title",
+            "source": "List bullet color",
+            "target": "List bullet color"
+        },
+        {
+            "type": "title",
+            "source": "Checkbox color",
+            "target": "Checkbox color"
+        },
+        {
+            "type": "title",
+            "source": "Checkbox shape",
+            "target": "Checkbox shape"
+        },
+        {
+            "type": "label",
+            "source": "Rounded",
+            "target": "Rounded"
+        },
+        {
+            "type": "label",
+            "source": "Circle",
+            "target": "Circle"
+        },
+        {
+            "type": "title",
+            "source": "Disable checkbox strikethrough",
+            "target": "Disable checkbox strikethrough"
+        },
+        {
+            "type": "title",
+            "source": "Media",
+            "target": "Media"
+        },
+        {
+            "type": "title",
+            "source": "Dim media in dark mode",
+            "target": "Dim media in dark mode"
+        },
+        {
+            "type": "title",
+            "source": "Disable maximized media",
+            "target": "Disable maximized media"
+        },
+        {
+            "type": "title",
+            "source": "Disable image zoom",
+            "target": "Disable image zoom"
+        },
+        {
+            "type": "title",
+            "source": "Disable rounded media",
+            "target": "Disable rounded media"
+        },
+        {
+            "type": "title",
+            "source": "Image grids spacing",
+            "target": "Image grids spacing"
+        },
+        {
+            "type": "title",
+            "source": "PDF",
+            "target": "PDF"
+        },
+        {
+            "type": "title",
+            "source": "PDF page style",
+            "target": "PDF page style"
+        },
+        {
+            "type": "label",
+            "source": "Paged",
+            "target": "Paged"
+        },
+        {
+            "type": "label",
+            "source": "Seamless",
+            "target": "Seamless"
+        },
+        {
+            "type": "title",
+            "source": "Invert PDF color in dark mode",
+            "target": "Invert PDF color in dark mode"
+        },
+        {
+            "type": "title",
+            "source": "Dim PDF pages in dark mode",
+            "target": "Dim PDF pages in dark mode"
+        },
+        {
+            "type": "title",
+            "source": "Disable rounded PDF pages",
+            "target": "Disable rounded PDF pages"
+        },
+        {
+            "type": "title",
+            "source": "Tables",
+            "target": "Tables"
+        },
+        {
+            "type": "title",
+            "source": "Table font size",
+            "target": "Table font size"
+        },
+        {
+            "type": "title",
+            "source": "Table width",
+            "target": "Table width"
+        },
+        {
+            "type": "title",
+            "source": "Table header text alignment",
+            "target": "Table header text alignment"
+        },
+        {
+            "type": "title",
+            "source": "Table body text alignment",
+            "target": "Table body text alignment"
+        },
+        {
+            "type": "title",
+            "source": "Highlight hovered row",
+            "target": "Highlight hovered row"
+        },
+        {
+            "type": "title",
+            "source": "Alternating columns background",
+            "target": "Alternating columns background"
+        },
+        {
+            "type": "title",
+            "source": "Always show row border",
+            "target": "Always show row border"
+        },
+        {
+            "type": "title",
+            "source": "Always show column border",
+            "target": "Always show column border"
+        },
+        {
+            "type": "title",
+            "source": "Row line numbers",
+            "target": "Row line numbers"
+        },
+        {
+            "type": "title",
+            "source": "Fixed-width tabular figures",
+            "target": "Fixed-width tabular figures"
+        },
+        {
+            "type": "title",
+            "source": "Tags",
+            "target": "Tags"
+        },
+        {
+            "type": "title",
+            "source": "Plain tags",
+            "target": "Plain tags"
+        },
+        {
+            "type": "description",
+            "source": "Display tags as normal text.",
+            "target": "Display tags as normal text."
+        },
+        {
+            "type": "title",
+            "source": "Tag shape",
+            "target": "Tag shape"
+        },
+        {
+            "type": "label",
+            "source": "Pill",
+            "target": "Pill"
+        },
+        {
+            "type": "label",
+            "source": "Square",
+            "target": "Square"
+        },
+        {
+            "type": "title",
+            "source": "Tag border thickness",
+            "target": "Tag border thickness"
+        },
+        {
+            "type": "title",
+            "source": "Tag text color",
+            "target": "Tag text color"
+        },
+        {
+            "type": "title",
+            "source": "Tag background",
+            "target": "Tag background"
+        },
+        {
+            "type": "title",
+            "source": "Tag background (Hover)",
+            "target": "Tag background (Hover)"
+        }
+    ]
+}

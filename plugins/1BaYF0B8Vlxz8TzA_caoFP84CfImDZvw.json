@@ -1,0 +1,1220 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "buttons",
+        "version": "1.0.0",
+        "title": "Buttons",
+        "description": "Buttons Localization & Tweaks",
+        "language": "繁體中文",
+        "supportedVersions": "0.9.13",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "button not found. check button ID",
+                    "target": "button not found. check button ID"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Error loading button",
+                    "target": "Error loading button"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Toggle Pin",
+                    "target": "Toggle Pin"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "[idOne, idTwo]",
+                    "target": "[idOne, idTwo]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "could not get active view",
+                    "target": "could not get active view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in Buttons: ",
+                    "target": "Error in Buttons: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Button command execution error:",
+                    "target": "Button command execution error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error executing chain action:",
+                    "target": "Error executing chain action:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "trying to create folder at: ",
+                    "target": "trying to create folder at: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Available commands:",
+                    "target": "Available commands:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create Note",
+                    "target": "Create Note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Name",
+                    "target": "Name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Button Maker",
+                    "target": "Button Maker"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Insert Inline Button",
+                    "target": "Insert Inline Button"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Malformed JSON in actions field. Please check your chain button syntax.",
+                    "target": "Error: Malformed JSON in actions field. Please check your chain button syntax."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not get Active View",
+                    "target": "Could not get Active View"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue prepending content, please try again",
+                    "target": "There was an issue prepending content, please try again"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue appending content, please try again",
+                    "target": "There was an issue appending content, please try again"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue parsing the line number, please try again",
+                    "target": "There was an issue parsing the line number, please try again"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue inserting content at cursor, please try again",
+                    "target": "There was an issue inserting content at cursor, please try again"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an error! Maybe the file already exists?",
+                    "target": "There was an error! Maybe the file already exists?"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "couldn't parse the path!",
+                    "target": "couldn't parse the path!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "couldn't read file",
+                    "target": "couldn't read file"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Check the line number in your calculate button",
+                    "target": "Check the line number in your calculate button"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No actions array found for chain button.",
+                    "target": "No actions array found for chain button."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file found. Buttons can only be used with files.",
+                    "target": "No active file found. Buttons can only be used with files."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "swap args only work in inline buttons for now",
+                    "target": "swap args only work in inline buttons for now"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "btn btn-secondary",
+                    "target": "btn btn-secondary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "btn btn-primary",
+                    "target": "btn btn-primary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "btn btn-add-action",
+                    "target": "btn btn-add-action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "My Awesome Button",
+                    "target": "My Awesome Button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Button Maker",
+                    "target": "Button Maker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Inline Button",
+                    "target": "Insert Inline Button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "My Awesome Button",
+                    "target": "My Awesome Button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your text content here...",
+                    "target": "Enter your text content here..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Text to copy\nSupports multiple lines",
+                    "target": "Text to copy\nSupports multiple lines"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter action...",
+                    "target": "Enter action..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "My New Note",
+                    "target": "My New Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "My Folder",
+                    "target": "My Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name of new note",
+                    "target": "Name of new note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Basic Settings",
+                    "target": "Basic Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Button Name",
+                    "target": "Button Name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What would you like to call this button?",
+                    "target": "What would you like to call this button?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Button Type",
+                    "target": "Button Type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What type of button are you making?",
+                    "target": "What type of button are you making?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a Button Type",
+                    "target": "Select a Button Type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Command - Run a command prompt command",
+                    "target": "Command - Run a command prompt command"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Link - Open a URL or URI",
+                    "target": "Link - Open a URL or URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text - Insert or create notes with text",
+                    "target": "Text - Insert or create notes with text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Swap - Create a multi-purpose Inline Button from other Buttons",
+                    "target": "Swap - Create a multi-purpose Inline Button from other Buttons"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy - Copy text to clipboard",
+                    "target": "Copy - Copy text to clipboard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chain - Run multiple actions in sequence",
+                    "target": "Chain - Run multiple actions in sequence"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Settings",
+                    "target": "Advanced Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Button Block ID",
+                    "target": "Button Block ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Provide a custom button-block-id",
+                    "target": "Provide a custom button-block-id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Replace content",
+                    "target": "Replace content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Replace lines in the note after clicking?",
+                    "target": "Replace lines in the note after clicking?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Inherit from other button",
+                    "target": "Inherit from other button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Inherit args by adding an existing button block-id?",
+                    "target": "Inherit args by adding an existing button block-id?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Styling",
+                    "target": "Styling"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom Class",
+                    "target": "Custom Class"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add a custom class for button styling",
+                    "target": "Add a custom class for button styling"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Color",
+                    "target": "Color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What color would you like your button to be?",
+                    "target": "What color would you like your button to be?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default Color",
+                    "target": "Default Color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Blue",
+                    "target": "Blue"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Red",
+                    "target": "Red"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Green",
+                    "target": "Green"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Yellow",
+                    "target": "Yellow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Purple",
+                    "target": "Purple"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom",
+                    "target": "Custom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Insert Button",
+                    "target": "Insert Button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Button Preview",
+                    "target": "Button Preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chain Actions",
+                    "target": "Chain Actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add actions to be executed in sequence",
+                    "target": "Add actions to be executed in sequence"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Command",
+                    "target": "Command"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Append Text",
+                    "target": "Append Text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Prepend Text",
+                    "target": "Prepend Text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Line Text",
+                    "target": "Line Text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note Text",
+                    "target": "Note Text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Link",
+                    "target": "Link"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Calculate",
+                    "target": "Calculate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy",
+                    "target": "Copy"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ Add Action",
+                    "target": "+ Add Action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter a link to open",
+                    "target": "Enter a link to open"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a command to run",
+                    "target": "Select a command to run"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default",
+                    "target": "Default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Prepend",
+                    "target": "Prepend"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Append",
+                    "target": "Append"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Do this...",
+                    "target": "Do this..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Line",
+                    "target": "Line"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cursor",
+                    "target": "Cursor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note",
+                    "target": "Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text",
+                    "target": "Text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter the text content",
+                    "target": "Enter the text content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter a calculation, you can reference a line number with $LineNumber",
+                    "target": "Enter a calculation, you can reference a line number with $LineNumber"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Swap",
+                    "target": "Swap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose buttons to be included in the Inline Swap Button",
+                    "target": "Choose buttons to be included in the Inline Swap Button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text to copy for clipboard",
+                    "target": "Text to copy for clipboard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select Lines",
+                    "target": "Select Lines"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Supply an array of [startingLine, endingLine] to be replaced",
+                    "target": "Supply an array of [startingLine, endingLine] to be replaced"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Button ID",
+                    "target": "Button ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Inherit from other buttons by adding their button block-id",
+                    "target": "Inherit from other buttons by adding their button block-id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Background Color",
+                    "target": "Background Color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text Color",
+                    "target": "Text Color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Line Number",
+                    "target": "Line Number"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "At which line should the content be inserted?",
+                    "target": "At which line should the content be inserted?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Prompt",
+                    "target": "Prompt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Should you be prompted to enter a name for the file on creation?",
+                    "target": "Should you be prompted to enter a name for the file on creation?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note Name",
+                    "target": "Note Name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What should the new note be named? Note: if prompt is on, this will be the default name",
+                    "target": "What should the new note be named? Note: if prompt is on, this will be the default name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Opening Method",
+                    "target": "Opening Method"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How should the new note be opened?",
+                    "target": "How should the new note be opened?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New Tab",
+                    "target": "New Tab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vertical Split",
+                    "target": "Vertical Split"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Horizontal Split",
+                    "target": "Horizontal Split"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Same Window",
+                    "target": "Same Window"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Don't Open",
+                    "target": "Don't Open"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default Folder",
+                    "target": "Default Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter a folder path to place the note in. Defaults to root",
+                    "target": "Enter a folder path to place the note in. Defaults to root"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "prepend command",
+                    "target": "prepend command"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "append command",
+                    "target": "append command"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "append text",
+                    "target": "append text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "prepend text",
+                    "target": "prepend text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "line text",
+                    "target": "line text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "cursor text",
+                    "target": "cursor text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "note text",
+                    "target": "note text"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`Button command error: Command \"${action}\" not found.`)",
+                    "target": "error(`Button command error: Command \"${action}\" not found.`)"
+                },
+                {
+                    "source": "log(\"Available commands:\", allCommands.map((cmd) => cmd.name));\n    return;\n  }\n  try {\n    if (args.type.includes(\"prepend\")",
+                    "target": "log(\"Available commands:\", allCommands.map((cmd) => cmd.name));\n    return;\n  }\n  try {\n    if (args.type.includes(\"prepend\")"
+                },
+                {
+                    "source": "Notice(`Failed to execute command \"${action}\": ${error.message}`)",
+                    "target": "Notice(`Failed to execute command \"${action}\": ${error.message}`)"
+                },
+                {
+                    "source": "Notice(\"No active file found. Buttons can only be used with files.\")",
+                    "target": "Notice(\"No active file found. Buttons can only be used with files.\")"
+                },
+                {
+                    "source": "error('PopperJS: an invalid property has been provided to the \"' + modifier.name + '\" modifier, valid properties are ' + VALID_PROPERTIES.map(function(s) {\n            return '\"' + s + '\"';\n          }).join(\", \") + '; but \"' + key + '\" was provided.')",
+                    "target": "error('PopperJS: an invalid property has been provided to the \"' + modifier.name + '\" modifier, valid properties are ' + VALID_PROPERTIES.map(function(s) {\n            return '\"' + s + '\"';\n          }).join(\", \") + '; but \"' + key + '\" was provided.')"
+                },
+                {
+                    "source": "setText(\"Button Maker\")",
+                    "target": "setText(\"Button Maker\")"
+                },
+                {
+                    "source": "setText(\"Insert Inline Button\")",
+                    "target": "setText(\"Insert Inline Button\")"
+                },
+                {
+                    "source": "text: \"Name of new note\"",
+                    "target": "text: \"Name of new note\""
+                },
+                {
+                    "source": "name: \"applyStyles\"",
+                    "target": "name: \"applyStyles\""
+                },
+                {
+                    "source": "name: \"arrow\"",
+                    "target": "name: \"arrow\""
+                },
+                {
+                    "source": "name: \"computeStyles\"",
+                    "target": "name: \"computeStyles\""
+                },
+                {
+                    "source": "name: \"eventListeners\"",
+                    "target": "name: \"eventListeners\""
+                },
+                {
+                    "source": "name: \"flip\"",
+                    "target": "name: \"flip\""
+                },
+                {
+                    "source": "text: \"reference\"",
+                    "target": "text: \"reference\""
+                },
+                {
+                    "source": "name: \"hide\"",
+                    "target": "name: \"hide\""
+                },
+                {
+                    "source": "name: \"offset\"",
+                    "target": "name: \"offset\""
+                },
+                {
+                    "source": "name: \"popperOffsets\"",
+                    "target": "name: \"popperOffsets\""
+                },
+                {
+                    "source": "name: \"preventOverflow\"",
+                    "target": "name: \"preventOverflow\""
+                },
+                {
+                    "source": "name: \"sameWidth\"",
+                    "target": "name: \"sameWidth\""
+                },
+                {
+                    "source": "name: \"My Awesome Button\"",
+                    "target": "name: \"My Awesome Button\""
+                },
+                {
+                    "source": "text: \"Basic Settings\"",
+                    "target": "text: \"Basic Settings\""
+                },
+                {
+                    "source": "text: \"Button Name\"",
+                    "target": "text: \"Button Name\""
+                },
+                {
+                    "source": "text: \"What would you like to call this button?\"",
+                    "target": "text: \"What would you like to call this button?\""
+                },
+                {
+                    "source": "text: \"Button Type\"",
+                    "target": "text: \"Button Type\""
+                },
+                {
+                    "source": "text: \"What type of button are you making?\"",
+                    "target": "text: \"What type of button are you making?\""
+                },
+                {
+                    "source": "text: \"Select a Button Type\"",
+                    "target": "text: \"Select a Button Type\""
+                },
+                {
+                    "source": "text: \"Command - Run a command prompt command\"",
+                    "target": "text: \"Command - Run a command prompt command\""
+                },
+                {
+                    "source": "text: \"Link - Open a URL or URI\"",
+                    "target": "text: \"Link - Open a URL or URI\""
+                },
+                {
+                    "source": "text: \"Text - Insert or create notes with text\"",
+                    "target": "text: \"Text - Insert or create notes with text\""
+                },
+                {
+                    "source": "text: \"Swap - Create a multi-purpose Inline Button from other Buttons\"",
+                    "target": "text: \"Swap - Create a multi-purpose Inline Button from other Buttons\""
+                },
+                {
+                    "source": "text: \"Copy - Copy text to clipboard\"",
+                    "target": "text: \"Copy - Copy text to clipboard\""
+                },
+                {
+                    "source": "text: \"Chain - Run multiple actions in sequence\"",
+                    "target": "text: \"Chain - Run multiple actions in sequence\""
+                },
+                {
+                    "source": "text: \"Advanced Settings\"",
+                    "target": "text: \"Advanced Settings\""
+                },
+                {
+                    "source": "text: \"Button Block ID\"",
+                    "target": "text: \"Button Block ID\""
+                },
+                {
+                    "source": "text: \"Provide a custom button-block-id\"",
+                    "target": "text: \"Provide a custom button-block-id\""
+                },
+                {
+                    "source": "text: \"Replace content\"",
+                    "target": "text: \"Replace content\""
+                },
+                {
+                    "source": "text: \"Replace lines in the note after clicking?\"",
+                    "target": "text: \"Replace lines in the note after clicking?\""
+                },
+                {
+                    "source": "text: \"Inherit from other button\"",
+                    "target": "text: \"Inherit from other button\""
+                },
+                {
+                    "source": "text: \"Inherit args by adding an existing button block-id?\"",
+                    "target": "text: \"Inherit args by adding an existing button block-id?\""
+                },
+                {
+                    "source": "text: \"Styling\"",
+                    "target": "text: \"Styling\""
+                },
+                {
+                    "source": "text: \"Custom Class\"",
+                    "target": "text: \"Custom Class\""
+                },
+                {
+                    "source": "text: \"Add a custom class for button styling\"",
+                    "target": "text: \"Add a custom class for button styling\""
+                },
+                {
+                    "source": "text: \"Color\"",
+                    "target": "text: \"Color\""
+                },
+                {
+                    "source": "text: \"What color would you like your button to be?\"",
+                    "target": "text: \"What color would you like your button to be?\""
+                },
+                {
+                    "source": "text: \"Default Color\"",
+                    "target": "text: \"Default Color\""
+                },
+                {
+                    "source": "text: \"Blue\"",
+                    "target": "text: \"Blue\""
+                },
+                {
+                    "source": "text: \"Red\"",
+                    "target": "text: \"Red\""
+                },
+                {
+                    "source": "text: \"Green\"",
+                    "target": "text: \"Green\""
+                },
+                {
+                    "source": "text: \"Yellow\"",
+                    "target": "text: \"Yellow\""
+                },
+                {
+                    "source": "text: \"Purple\"",
+                    "target": "text: \"Purple\""
+                },
+                {
+                    "source": "text: \"Custom\"",
+                    "target": "text: \"Custom\""
+                },
+                {
+                    "source": "text: \"Cancel\"",
+                    "target": "text: \"Cancel\""
+                },
+                {
+                    "source": "text: \"Insert Button\"",
+                    "target": "text: \"Insert Button\""
+                },
+                {
+                    "source": "text: \"Button Preview\"",
+                    "target": "text: \"Button Preview\""
+                },
+                {
+                    "source": "text: \"Chain Actions\"",
+                    "target": "text: \"Chain Actions\""
+                },
+                {
+                    "source": "text: \"Add actions to be executed in sequence\"",
+                    "target": "text: \"Add actions to be executed in sequence\""
+                },
+                {
+                    "source": "text: `Action ${idx + 1}`",
+                    "target": "text: `Action ${idx + 1}`"
+                },
+                {
+                    "source": "text: \"\\xD7\"",
+                    "target": "text: \"\\xD7\""
+                },
+                {
+                    "source": "text: \"Command\"",
+                    "target": "text: \"Command\""
+                },
+                {
+                    "source": "text: \"Append Text\"",
+                    "target": "text: \"Append Text\""
+                },
+                {
+                    "source": "text: \"Prepend Text\"",
+                    "target": "text: \"Prepend Text\""
+                },
+                {
+                    "source": "text: \"Line Text\"",
+                    "target": "text: \"Line Text\""
+                },
+                {
+                    "source": "text: \"Note Text\"",
+                    "target": "text: \"Note Text\""
+                },
+                {
+                    "source": "text: \"Link\"",
+                    "target": "text: \"Link\""
+                },
+                {
+                    "source": "text: \"Calculate\"",
+                    "target": "text: \"Calculate\""
+                },
+                {
+                    "source": "text: \"Copy\"",
+                    "target": "text: \"Copy\""
+                },
+                {
+                    "source": "text: \"+ Add Action\"",
+                    "target": "text: \"+ Add Action\""
+                },
+                {
+                    "source": "text: \"Enter a link to open\"",
+                    "target": "text: \"Enter a link to open\""
+                },
+                {
+                    "source": "text: \"Select a command to run\"",
+                    "target": "text: \"Select a command to run\""
+                },
+                {
+                    "source": "text: \"Default\"",
+                    "target": "text: \"Default\""
+                },
+                {
+                    "source": "text: \"Prepend\"",
+                    "target": "text: \"Prepend\""
+                },
+                {
+                    "source": "text: \"Append\"",
+                    "target": "text: \"Append\""
+                },
+                {
+                    "source": "text: \"Do this...\"",
+                    "target": "text: \"Do this...\""
+                },
+                {
+                    "source": "text: \"Line\"",
+                    "target": "text: \"Line\""
+                },
+                {
+                    "source": "text: \"Cursor\"",
+                    "target": "text: \"Cursor\""
+                },
+                {
+                    "source": "text: \"Note\"",
+                    "target": "text: \"Note\""
+                },
+                {
+                    "source": "text: \"Text\"",
+                    "target": "text: \"Text\""
+                },
+                {
+                    "source": "text: \"Enter the text content\"",
+                    "target": "text: \"Enter the text content\""
+                },
+                {
+                    "source": "text: \"Enter a calculation, you can reference a line number with $LineNumber\"",
+                    "target": "text: \"Enter a calculation, you can reference a line number with $LineNumber\""
+                },
+                {
+                    "source": "text: \"Swap\"",
+                    "target": "text: \"Swap\""
+                },
+                {
+                    "source": "text: \"Choose buttons to be included in the Inline Swap Button\"",
+                    "target": "text: \"Choose buttons to be included in the Inline Swap Button\""
+                },
+                {
+                    "source": "text: \"Text to copy for clipboard\"",
+                    "target": "text: \"Text to copy for clipboard\""
+                },
+                {
+                    "source": "text: \"Select Lines\"",
+                    "target": "text: \"Select Lines\""
+                },
+                {
+                    "source": "text: \"Supply an array of [startingLine, endingLine] to be replaced\"",
+                    "target": "text: \"Supply an array of [startingLine, endingLine] to be replaced\""
+                },
+                {
+                    "source": "text: \"Button ID\"",
+                    "target": "text: \"Button ID\""
+                },
+                {
+                    "source": "text: \"Inherit from other buttons by adding their button block-id\"",
+                    "target": "text: \"Inherit from other buttons by adding their button block-id\""
+                },
+                {
+                    "source": "text: \"Background Color\"",
+                    "target": "text: \"Background Color\""
+                },
+                {
+                    "source": "text: \"Text Color\"",
+                    "target": "text: \"Text Color\""
+                },
+                {
+                    "source": "text: \"Line Number\"",
+                    "target": "text: \"Line Number\""
+                },
+                {
+                    "source": "text: \"At which line should the content be inserted?\"",
+                    "target": "text: \"At which line should the content be inserted?\""
+                },
+                {
+                    "source": "text: \"Prompt\"",
+                    "target": "text: \"Prompt\""
+                },
+                {
+                    "source": "text: \"Should you be prompted to enter a name for the file on creation?\"",
+                    "target": "text: \"Should you be prompted to enter a name for the file on creation?\""
+                },
+                {
+                    "source": "text: \"Note Name\"",
+                    "target": "text: \"Note Name\""
+                },
+                {
+                    "source": "text: \"What should the new note be named? Note: if prompt is on, this will be the default name\"",
+                    "target": "text: \"What should the new note be named? Note: if prompt is on, this will be the default name\""
+                },
+                {
+                    "source": "text: \"Opening Method\"",
+                    "target": "text: \"Opening Method\""
+                },
+                {
+                    "source": "text: \"How should the new note be opened?\"",
+                    "target": "text: \"How should the new note be opened?\""
+                },
+                {
+                    "source": "text: \"New Tab\"",
+                    "target": "text: \"New Tab\""
+                },
+                {
+                    "source": "text: \"Vertical Split\"",
+                    "target": "text: \"Vertical Split\""
+                },
+                {
+                    "source": "text: \"Horizontal Split\"",
+                    "target": "text: \"Horizontal Split\""
+                },
+                {
+                    "source": "text: \"Same Window\"",
+                    "target": "text: \"Same Window\""
+                },
+                {
+                    "source": "text: \"Don't Open\"",
+                    "target": "text: \"Don't Open\""
+                },
+                {
+                    "source": "text: \"Default Folder\"",
+                    "target": "text: \"Default Folder\""
+                },
+                {
+                    "source": "text: \"Enter a folder path to place the note in. Defaults to root\"",
+                    "target": "text: \"Enter a folder path to place the note in. Defaults to root\""
+                },
+                {
+                    "source": "innerText = \"Loading...\"",
+                    "target": "innerText = \"Loading...\""
+                },
+                {
+                    "source": "innerText = \"button not found. check button ID\"",
+                    "target": "innerText = \"button not found. check button ID\""
+                },
+                {
+                    "source": "innerText = \"Error loading button\"",
+                    "target": "innerText = \"Error loading button\""
+                },
+                {
+                    "source": "name: \"Button Maker\"",
+                    "target": "name: \"Button Maker\""
+                },
+                {
+                    "source": "name: \"Insert Inline Button\"",
+                    "target": "name: \"Insert Inline Button\""
+                }
+            ]
+        }
+    }
+}

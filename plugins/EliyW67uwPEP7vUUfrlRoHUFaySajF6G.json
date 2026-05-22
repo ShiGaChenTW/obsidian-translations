@@ -1,0 +1,294 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-checklist-plugin",
+        "version": "1.0.0",
+        "title": "Checklist",
+        "description": "Checklist Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "2.2.14",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "All Tags",
+                    "target": "所有標籤"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Show Tags?",
+                    "target": "顯示標籤？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No tags specified",
+                    "target": "未指定標籤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Page",
+                    "target": "頁面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tag",
+                    "target": "標籤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "A -> Z",
+                    "target": "A -> Z"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Z -> A",
+                    "target": "Z -> A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "New -> Old",
+                    "target": "新 -> 舊"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Old -> New",
+                    "target": "舊 -> 新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Classic",
+                    "target": "經典"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Compact",
+                    "target": "精簡模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show only todos present in currently active file?",
+                    "target": "僅顯示目前作用中檔案內的待辦事項？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It's recommended to leave this on unless you are expereince performance issues due to a large vault. You can then reload manually using the \"Checklist: refresh\" command",
+                    "target": "建議保持開啟，除非因儲存庫過大而導致效能問題。若遇此情況，可使用「Checklist: refresh」指令手動重新載入。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "General",
+                    "target": "一般"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag name",
+                    "target": "標籤名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Completed?",
+                    "target": "顯示已完成項目？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show All Todos In File?",
+                    "target": "顯示檔案中所有待辦事項？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show only in currently active file?",
+                    "target": "僅顯示目前作用中檔案內的項目？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Grouping & Sorting",
+                    "target": "分組與排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group By",
+                    "target": "分組依據"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group Sort",
+                    "target": "群組排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Styling",
+                    "target": "樣式設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Look and Feel",
+                    "target": "外觀與風格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced",
+                    "target": "進階設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include Files",
+                    "target": "包含檔案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Refresh List?",
+                    "target": "是否自動重新整理清單？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Checklist Pane",
+                    "target": "顯示檢查清單窗格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh List",
+                    "target": "重新整理清單"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General Settings",
+                    "target": "一般設定"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Tag name\")",
+                    "target": "setName(\"Tag name\")"
+                },
+                {
+                    "source": "setName(\"Show Completed?\")",
+                    "target": "setName(\"Show Completed?\")"
+                },
+                {
+                    "source": "setName(\"Show All Todos In File?\")",
+                    "target": "setName(\"Show All Todos In File?\")"
+                },
+                {
+                    "source": "setName(\"Show only in currently active file?\")",
+                    "target": "setName(\"Show only in currently active file?\")"
+                },
+                {
+                    "source": "setDesc(\"Show only todos present in currently active file?\")",
+                    "target": "setDesc(\"Show only todos present in currently active file?\")"
+                },
+                {
+                    "source": "setName(\"Grouping & Sorting\")",
+                    "target": "setName(\"Grouping & Sorting\")"
+                },
+                {
+                    "source": "setName(\"Group By\")",
+                    "target": "setName(\"Group By\")"
+                },
+                {
+                    "source": "setName(\"Group Sort\")",
+                    "target": "setName(\"Group Sort\")"
+                },
+                {
+                    "source": "setName(\"Look and Feel\")",
+                    "target": "setName(\"Look and Feel\")"
+                },
+                {
+                    "source": "setName(\"Include Files\")",
+                    "target": "setName(\"Include Files\")"
+                },
+                {
+                    "source": "setName(\"Auto Refresh List?\")",
+                    "target": "setName(\"Auto Refresh List?\")"
+                },
+                {
+                    "source": "setDesc(`It's recommended to leave this on unless you are expereince performance issues due to a large vault. You can then reload manually using the \"Checklist: refresh\" command`)",
+                    "target": "setDesc(`It's recommended to leave this on unless you are expereince performance issues due to a large vault. You can then reload manually using the \"Checklist: refresh\" command`)"
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "name = \"[a-zA-Z_:][a-zA-Z0-9:._-]*\"",
+                    "target": "name = \"[a-zA-Z_:][a-zA-Z0-9:._-]*\""
+                },
+                {
+                    "source": "name = '[\\\\-;:&=\\\\+\\\\$,\\\\.a-zA-Z0-9_][\\\\-;:&=\\\\+\\\\$,\\\\\"\\\\.a-zA-Z0-9_]*'",
+                    "target": "name = '[\\\\-;:&=\\\\+\\\\$,\\\\.a-zA-Z0-9_][\\\\-;:&=\\\\+\\\\$,\\\\\"\\\\.a-zA-Z0-9_]*'"
+                },
+                {
+                    "source": "text: \"General Settings\"",
+                    "target": "text: \"General Settings\""
+                },
+                {
+                    "source": "textContent = \"All Tags\"",
+                    "target": "textContent = \"All Tags\""
+                },
+                {
+                    "source": "textContent = \"#\"",
+                    "target": "textContent = \"#\""
+                },
+                {
+                    "source": "name: \"chevron\"",
+                    "target": "name: \"chevron\""
+                },
+                {
+                    "source": "textContent = \"Show Tags?\"",
+                    "target": "textContent = \"Show Tags?\""
+                },
+                {
+                    "source": "textContent = \"No tags specified\"",
+                    "target": "textContent = \"No tags specified\""
+                },
+                {
+                    "source": "name: \"settings\"",
+                    "target": "name: \"settings\""
+                },
+                {
+                    "source": "search = \"\"",
+                    "target": "search = \"\""
+                },
+                {
+                    "source": "name: \"Show Checklist Pane\"",
+                    "target": "name: \"Show Checklist Pane\""
+                },
+                {
+                    "source": "name: \"Refresh List\"",
+                    "target": "name: \"Refresh List\""
+                }
+            ]
+        }
+    }
+}

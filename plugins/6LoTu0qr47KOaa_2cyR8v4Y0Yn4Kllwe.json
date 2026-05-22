@@ -1,0 +1,296 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "advanced-canvas",
+        "version": "1.0.0",
+        "title": "Advanced Canvas",
+        "description": "Advanced Canvas Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "6.1.7",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "不支援 Intl，請使用 Intl polyfill！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The plugin folder doesn't exists.",
+                    "target": "外掛程式資料夾不存在。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在存取物件，但未啟用 returnObjects 選項！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "這表示您的設定有誤。您在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成前呼叫了 t 函式。請等待回呼（Callback）或 Promise 解析後再進行存取！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未透過 i18next.use 新增任何後端（Backend）。將無法載入資源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定義 lng。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已完成初始化。您應僅呼叫 init 一次！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Creating snippets directory",
+                    "target": "正在建立程式碼片段（Snippets）目錄。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Simple colored folder] Error while deep merging settings, using default loading method",
+                    "target": "[Simple colored folder] 深度合併設定時發生錯誤，將使用預設載入方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Reset light color",
+                    "target": "重置淺色模式顏色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Reset dark color",
+                    "target": "重置深色模式顏色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "alpha-picker-wrapper light",
+                    "target": "alpha-picker-wrapper light"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "alpha-picker-wrapper dark",
+                    "target": "alpha-picker-wrapper dark"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "alpha-picker light",
+                    "target": "alpha-picker light"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "alpha-picker dark",
+                    "target": "alpha-picker dark"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add the plugin style into the exported style snippets.",
+                    "target": "將插件樣式加入至匯出的樣式片段中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use a local css snippet file instead of inject the styles into the DOM.",
+                    "target": "使用本地 CSS 片段檔案，而非將樣式注入至 DOM。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If the colors don't show up, try to increase or decrease cette valeur.",
+                    "target": "若顏色未顯示，請嘗試增加或減少此數值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Modèle CSS personnalisé qui sera utilisé pour générer un CSS depuis les dossiers. Merci d'utiliser les variables suivantes : ",
+                    "target": "用於從資料夾產生 CSS 的自訂 CSS 模板。請務必使用下列變數："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ajouter les styles du plugin dans le fichier exporté.",
+                    "target": "將插件樣式加入至匯出的檔案中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Préfixe pour la génération de variable. Cela permettra au plugin \"Style settings\" de fonctionner, mais vous pourrez aussi les utiliser dans un snippet css.",
+                    "target": "變數生成的字首。此設定可確保「Style settings」插件正常運作，亦可供您在 CSS 片段中使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Utiliser un fichier d'extrait CSS à la place d'injecter le style dans le DOM.",
+                    "target": "使用 CSS 片段檔案，而非直接將樣式注入至 DOM。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mod\\xE8le \"Style settings\" personnalis\\xE9 pour g\\xE9n\\xE9rer un style depuis les dossiers. Merci d'utiliser les variables suivantes :",
+                    "target": "用於從資料夾生成樣式的自訂「Style settings」範本。請務必使用下列變數："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Si les couleurs n'apparaissent pas, essayez d'augmenter ou diminuer cette valeur.",
+                    "target": "若色彩未正確顯示，請嘗試增加或減少此數值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Custom CSS",
+                    "target": "自訂 CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Export plugin style",
+                    "target": "匯出插件樣式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Prefix",
+                    "target": "字首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "CSS snippets file",
+                    "target": "CSS 片段檔案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Custom style settings",
+                    "target": "自訂樣式設定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Timeout",
+                    "target": "逾時"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "CSS personnalisé",
+                    "target": "自訂 CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Exporter le style du plugin",
+                    "target": "匯出外掛程式樣式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Préfixe",
+                    "target": "前綴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fichier de snippets CSS",
+                    "target": "CSS 片段檔案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Style settings personnalisé",
+                    "target": "自訂樣式設定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "Warning",
+                    "target": "警告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "This will reset your Style Settings! ",
+                    "target": "這將重置您的樣式設定！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "Please enable 'Style Settings' plugin",
+                    "target": "請啟用「Style Settings」外掛程式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "Attention",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "Cela aura pour conséquence de réinitialiser vos paramètres Style Settings ! ",
+                    "target": "此操作將會重置您的「Style Settings」設定！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "Merci d'activer le module \"Style Settings\".",
+                    "target": "請啟用「Style Settings」模組。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"No Intl support, please use an Intl polyfill!\")",
+                    "target": "error(\"No Intl support, please use an Intl polyfill!\")"
+                },
+                {
+                    "source": "error(\"The plugin folder doesn't exists.\")",
+                    "target": "error(\"The plugin folder doesn't exists.\")"
+                },
+                {
+                    "source": "log(`[${this.manifest.name}] Loaded`)",
+                    "target": "log(`[${this.manifest.name}] Loaded`)"
+                },
+                {
+                    "source": "log(`[${this.manifest.name}] Unloaded`)",
+                    "target": "log(`[${this.manifest.name}] Unloaded`)"
+                },
+                {
+                    "source": "description: \"Format: px\"",
+                    "target": "description: \"Format: px\""
+                },
+                {
+                    "source": "description: \"Format: %\"",
+                    "target": "description: \"Format: %\""
+                }
+            ]
+        }
+    }
+}

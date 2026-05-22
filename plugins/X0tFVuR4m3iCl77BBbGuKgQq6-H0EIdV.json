@@ -1,0 +1,80 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "card-board",
+        "version": "1.0.0",
+        "title": "CardBoard",
+        "description": "CardBoard Localization & Tweaks",
+        "language": "繁體中文",
+        "supportedVersions": "0.7.9",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "CardBoard: loading plugin",
+                    "target": "CardBoard: loading plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading CardBoard plugin",
+                    "target": "unloading CardBoard plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit due date",
+                    "target": "Edit due date"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "Unable to create new file."
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Unable to create new file.\")",
+                    "target": "Notice(\"Unable to create new file.\")"
+                },
+                {
+                    "source": "setTitle(\"Edit due date\")",
+                    "target": "setTitle(\"Edit due date\")"
+                },
+                {
+                    "source": "log(\"CardBoard: loading plugin\")",
+                    "target": "log(\"CardBoard: loading plugin\")"
+                },
+                {
+                    "source": "log(\"CardBoard: \"+c.length+\" files scanned for tasks.\")",
+                    "target": "log(\"CardBoard: \"+c.length+\" files scanned for tasks.\")"
+                },
+                {
+                    "source": "log(\"unloading CardBoard plugin\")",
+                    "target": "log(\"unloading CardBoard plugin\")"
+                },
+                {
+                    "source": "settings:\"+Lt(t),c=s(AM,r,e);return s(LF,A,I([EM(Pd(a)),s(LF,I([vx(o),MF(\"",
+                    "target": "settings:\"+Lt(t),c=s(AM,r,e);return s(LF,A,I([EM(Pd(a)),s(LF,I([vx(o),MF(\""
+                },
+                {
+                    "source": "name:\"+Lt(r);return s(LF,A,I([bH(Pd(e)),s(LF,I([vx(u),MF(\"",
+                    "target": "name:\"+Lt(r);return s(LF,A,I([bH(Pd(e)),s(LF,I([vx(u),MF(\""
+                },
+                {
+                    "source": "name:\"+Lt(n);return s(LF,A,I([bH(Pd(t)),s(LF,I([vx(e),MF(\"",
+                    "target": "name:\"+Lt(n);return s(LF,A,I([bH(Pd(t)),s(LF,I([vx(e),MF(\""
+                },
+                {
+                    "source": "name:\"Open \"",
+                    "target": "name:\"Open \""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,484 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "card-note",
+        "version": "1.0.0",
+        "title": "CardNote",
+        "description": "CardNote Localization & Tweaks",
+        "language": "繁體中文",
+        "supportedVersions": "1.7.0",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "files to include",
+                    "target": "files to include"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "files to exclude",
+                    "target": "files to exclude"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "column width",
+                    "target": "column width"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "row height",
+                    "target": "row height"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "expect set description before closing Modal",
+                    "target": "expect set description before closing Modal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can set your prefer drag symbol here.",
+                    "target": "You can set your prefer drag symbol here."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a fixed size for the note created by this plugin in Canvas.",
+                    "target": "Set a fixed size for the note created by this plugin in Canvas."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically adjust the height of the note in the canvas to fit the content height.",
+                    "target": "Automatically adjust the height of the note in the canvas to fit the content height."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set your label",
+                    "target": "Set your label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Drag symbol",
+                    "target": "Drag symbol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default folder",
+                    "target": "Default folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fiexed size",
+                    "target": "Fiexed size"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fit to content height",
+                    "target": "Fit to content height"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Symbol size (px)",
+                    "target": "Symbol size (px)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your drag symbol here",
+                    "target": "Enter your drag symbol here"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "/sub folder name",
+                    "target": "/sub folder name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "delete file",
+                    "target": "delete file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Create random block id",
+                    "target": "Create random block id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Create file",
+                    "target": "Create file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Link to reference",
+                    "target": "Link to reference"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Cut",
+                    "target": "Cut"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Use Regular Expression",
+                    "target": "Use Regular Expression"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Match Case",
+                    "target": "Match Case"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle Search Detail",
+                    "target": "Toggle Search Detail"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle Layout Detail",
+                    "target": "Toggle Layout Detail"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Excalidraw not available",
+                    "target": "Excalidraw not available"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Search View",
+                    "target": "Open Search View"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set Default Label",
+                    "target": "Set Default Label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Auto Link",
+                    "target": "Enable Auto Link"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disable Auto Link",
+                    "target": "Disable Auto Link"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arrow to From",
+                    "target": "Arrow to From"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arrow to End",
+                    "target": "Arrow to End"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arrow to Both",
+                    "target": "Arrow to Both"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arrow to None",
+                    "target": "Arrow to None"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set Fixed Size",
+                    "target": "Set Fixed Size"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fit to Content",
+                    "target": "Fit to Content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Drag Symbol",
+                    "target": "Show Drag Symbol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide Drag Symbol",
+                    "target": "Hide Drag Symbol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create New File in Default Folder",
+                    "target": "Create New File in Default Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create New File in Source File Folder",
+                    "target": "Create New File in Source File Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create New File in Canvas File Folder",
+                    "target": "Create New File in Canvas File Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Auto Preview",
+                    "target": "Enable Auto Preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disable Auto Preview",
+                    "target": "Disable Auto Preview"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setDesc(`Create file${linkReferenceDescription}`)",
+                    "target": "setDesc(`Create file${linkReferenceDescription}`)"
+                },
+                {
+                    "source": "setTooltip(\"Create random block id\")",
+                    "target": "setTooltip(\"Create random block id\")"
+                },
+                {
+                    "source": "setTooltip(\"Create file\")",
+                    "target": "setTooltip(\"Create file\")"
+                },
+                {
+                    "source": "setTooltip(\"Link to reference\")",
+                    "target": "setTooltip(\"Link to reference\")"
+                },
+                {
+                    "source": "setTitle(\"delete file\")",
+                    "target": "setTitle(\"delete file\")"
+                },
+                {
+                    "source": "setTooltip(\"Use Regular Expression\")",
+                    "target": "setTooltip(\"Use Regular Expression\")"
+                },
+                {
+                    "source": "setTooltip(\"Match Case\")",
+                    "target": "setTooltip(\"Match Case\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle Search Detail\")",
+                    "target": "setTooltip(\"Toggle Search Detail\")"
+                },
+                {
+                    "source": "setPlaceholder(\"e.g. .*\\\\.md\")",
+                    "target": "setPlaceholder(\"e.g. .*\\\\.md\")"
+                },
+                {
+                    "source": "setPlaceholder(\"e.g. .*\\\\.png\")",
+                    "target": "setPlaceholder(\"e.g. .*\\\\.png\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle Layout Detail\")",
+                    "target": "setTooltip(\"Toggle Layout Detail\")"
+                },
+                {
+                    "source": "setName(\"Set your label\")",
+                    "target": "setName(\"Set your label\")"
+                },
+                {
+                    "source": "setName(\"Drag symbol\")",
+                    "target": "setName(\"Drag symbol\")"
+                },
+                {
+                    "source": "setDesc(\"You can set your prefer drag symbol here.\")",
+                    "target": "setDesc(\"You can set your prefer drag symbol here.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter your drag symbol here\")",
+                    "target": "setPlaceholder(\"Enter your drag symbol here\")"
+                },
+                {
+                    "source": "setName(\"Default folder\")",
+                    "target": "setName(\"Default folder\")"
+                },
+                {
+                    "source": "setPlaceholder(\"/sub folder name\")",
+                    "target": "setPlaceholder(\"/sub folder name\")"
+                },
+                {
+                    "source": "setName(\"Fiexed size\")",
+                    "target": "setName(\"Fiexed size\")"
+                },
+                {
+                    "source": "setDesc(`Set a fixed size for the note created by this plugin in Canvas.`)",
+                    "target": "setDesc(`Set a fixed size for the note created by this plugin in Canvas.`)"
+                },
+                {
+                    "source": "setName(\"Fit to content height\")",
+                    "target": "setName(\"Fit to content height\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically adjust the height of the note in the canvas to fit the content height.\")",
+                    "target": "setDesc(\"Automatically adjust the height of the note in the canvas to fit the content height.\")"
+                },
+                {
+                    "source": "setName(\"Symbol size (px)\")",
+                    "target": "setName(\"Symbol size (px)\")"
+                },
+                {
+                    "source": "innerText = `Create file ${fileName}`",
+                    "target": "innerText = `Create file ${fileName}`"
+                },
+                {
+                    "source": "innerText = `or`",
+                    "target": "innerText = `or`"
+                },
+                {
+                    "source": "innerText = `Link to block ${fileName}`",
+                    "target": "innerText = `Link to block ${fileName}`"
+                },
+                {
+                    "source": "textContent = `${/*fileMatch*/\n      ctx[5].file.basename}`",
+                    "target": "textContent = `${/*fileMatch*/\n      ctx[5].file.basename}`"
+                },
+                {
+                    "source": "textContent = `${/*fileMatch*/\n      ctx[5].file.extension !== \"md\" ? (\n        /*fileMatch*/\n        ctx[5].file.extension\n      ) : \"\"}`",
+                    "target": "textContent = `${/*fileMatch*/\n      ctx[5].file.extension !== \"md\" ? (\n        /*fileMatch*/\n        ctx[5].file.extension\n      ) : \"\"}`"
+                },
+                {
+                    "source": "textContent = `${/*fileMatch*/\n      (_a = ctx[5].file.parent) == null ? void 0 : _a.path}`",
+                    "target": "textContent = `${/*fileMatch*/\n      (_a = ctx[5].file.parent) == null ? void 0 : _a.path}`"
+                },
+                {
+                    "source": "textContent = \" \"",
+                    "target": "textContent = \" \""
+                },
+                {
+                    "source": "textContent = \"files to include\"",
+                    "target": "textContent = \"files to include\""
+                },
+                {
+                    "source": "textContent = \"files to exclude\"",
+                    "target": "textContent = \"files to exclude\""
+                },
+                {
+                    "source": "textContent = \"column width\"",
+                    "target": "textContent = \"column width\""
+                },
+                {
+                    "source": "textContent = \"row height\"",
+                    "target": "textContent = \"row height\""
+                },
+                {
+                    "source": "name: \"Open Search View\"",
+                    "target": "name: \"Open Search View\""
+                },
+                {
+                    "source": "name: \"Set Default Label\"",
+                    "target": "name: \"Set Default Label\""
+                },
+                {
+                    "source": "name: \"Enable Auto Link\"",
+                    "target": "name: \"Enable Auto Link\""
+                },
+                {
+                    "source": "name: \"Disable Auto Link\"",
+                    "target": "name: \"Disable Auto Link\""
+                },
+                {
+                    "source": "name: \"Arrow to From\"",
+                    "target": "name: \"Arrow to From\""
+                },
+                {
+                    "source": "name: \"Arrow to End\"",
+                    "target": "name: \"Arrow to End\""
+                },
+                {
+                    "source": "name: \"Arrow to Both\"",
+                    "target": "name: \"Arrow to Both\""
+                },
+                {
+                    "source": "name: \"Arrow to None\"",
+                    "target": "name: \"Arrow to None\""
+                },
+                {
+                    "source": "name: \"Set Fixed Size\"",
+                    "target": "name: \"Set Fixed Size\""
+                },
+                {
+                    "source": "name: \"Fit to Content\"",
+                    "target": "name: \"Fit to Content\""
+                },
+                {
+                    "source": "name: \"Show Drag Symbol\"",
+                    "target": "name: \"Show Drag Symbol\""
+                },
+                {
+                    "source": "name: \"Hide Drag Symbol\"",
+                    "target": "name: \"Hide Drag Symbol\""
+                },
+                {
+                    "source": "name: \"Create New File in Default Folder\"",
+                    "target": "name: \"Create New File in Default Folder\""
+                },
+                {
+                    "source": "name: \"Create New File in Source File Folder\"",
+                    "target": "name: \"Create New File in Source File Folder\""
+                },
+                {
+                    "source": "name: \"Create New File in Canvas File Folder\"",
+                    "target": "name: \"Create New File in Canvas File Folder\""
+                },
+                {
+                    "source": "name: \"Enable Auto Preview\"",
+                    "target": "name: \"Enable Auto Preview\""
+                },
+                {
+                    "source": "name: \"Disable Auto Preview\"",
+                    "target": "name: \"Disable Auto Preview\""
+                }
+            ]
+        }
+    }
+}

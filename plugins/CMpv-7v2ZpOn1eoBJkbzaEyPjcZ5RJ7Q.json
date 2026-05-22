@@ -1,0 +1,2612 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "branch-writing",
+        "version": "1.0.0",
+        "title": "Branch Writing",
+        "description": "Branch Writing Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "1.2.2",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Progress through the document",
+                    "target": "瀏覽文件進度"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Find a setting by name or description…",
+                    "target": "透過名稱或描述搜尋設定..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Wrong! Try again...",
+                    "target": "錯誤！請再試一次..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Close",
+                    "target": "關閉"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Prev",
+                    "target": "上一頁"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Next",
+                    "target": "下一頁"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Done",
+                    "target": "完成"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "This section does not match any splitting pattern",
+                    "target": "此區段不符合任何分割模式"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No experimental settings match your search.",
+                    "target": "沒有符合您搜尋條件的實驗性設定。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "General",
+                    "target": "一般"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Colors",
+                    "target": "色彩"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Experimental",
+                    "target": "實驗性功能"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "These are some extra controls currently designed for me (Santi), so unless you are me, which you probably aren't, just close this and never try to get here again.",
+                    "target": "這些額外控制項僅為開發者（Santi）設計。除非您是本人，否則請關閉此視窗並避免再次存取。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "But if you are me, enter the secret word to get in here:",
+                    "target": "若您為開發者本人，請輸入密語以進入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Fresh install preview",
+                    "target": "全新安裝預覽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Current setup",
+                    "target": "目前設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ERROR]: ",
+                    "target": "[錯誤]："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error renaming file:",
+                    "target": "檔案重新命名失敗："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read clipboard:",
+                    "target": "讀取剪貼簿失敗："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get section for node:",
+                    "target": "無法獲取節點的區段："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read file:",
+                    "target": "無法讀取檔案："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Section not found in file:",
+                    "target": "在檔案中找不到區段："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Available sections:",
+                    "target": "可用區段："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write file:",
+                    "target": "無法寫入檔案："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rollback changes:",
+                    "target": "無法復原變更："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not detect document format for updated content",
+                    "target": "無法偵測更新內容的文件格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reload document:",
+                    "target": "無法重新載入文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Branch Writing] filterBranchLeafNodes: Error:",
+                    "target": "[分支寫入] filterBranchLeafNodes：錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[branch-writing] saveNodeContent threw on active-leaf-change",
+                    "target": "[分支寫入] saveNodeContent 在 active-leaf-change 時發生異常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Animation] Animation error:",
+                    "target": "[動畫] 動畫錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Branch Writing] Could not find .columns-container",
+                    "target": "[分支寫作] 無法找到 .columns-container"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Branch Writing] Error scrolling to active node:",
+                    "target": "[分支寫作] 捲動至活動節點時發生錯誤："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save Branch Writing settings:",
+                    "target": "儲存分支寫作設定失敗："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG]: ",
+                    "target": "[除錯]："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[INFO]: ",
+                    "target": "[資訊]："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage",
+                    "target": "管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset all",
+                    "target": "全部重設"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, Ctrl/Cmd-click copies the card with source and section markers. Disable to copy only plain card text.",
+                    "target": "啟用後，按住 Ctrl/Cmd 並點擊將會複製帶有來源與區段標記的卡片。停用此選項則僅複製純文字卡片內容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, clicking links to headings in other files (e.g., [[Other Note#Heading]]) will open the file in branch-writing view and navigate to the card containing that heading. When disabled, uses standard Obsidian behavior (opens in editor mode).",
+                    "target": "啟用後，點擊指向其他檔案標題的連結（例如 [[其他筆記#標題]]）將會以分支寫作視圖開啟該檔案，並導航至包含該標題的卡片。停用此選項則使用 Obsidian 標準行為（以編輯器模式開啟）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show or hide the \"Name section\" option when right-clicking on cards",
+                    "target": "在卡片上按右鍵時，顯示或隱藏「名稱區段」選項"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show or hide the \"Archive section\" option when right-clicking on cards",
+                    "target": "在卡片上按右鍵時，顯示或隱藏「封存區段」選項"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show or hide the \"Switch to heading\" option when right-clicking on cards",
+                    "target": "在卡片上按右鍵時，顯示或隱藏「切換為標題」選項"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show or hide the \"Replace section from clipboard\" option when right-clicking on cards",
+                    "target": "在卡片上按右鍵時，顯示或隱藏「從剪貼簿取代區段」選項"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show or hide the \"Duplicate branch\" option when right-clicking on cards",
+                    "target": "在卡片上按右鍵時，顯示或隱藏「複製分支」選項"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable the typing animation commands in the command palette (Start animation, Pause/resume animation, Reset animation, Animate to vertical layout)",
+                    "target": "啟用指令面板中的打字動畫指令（開始動畫、暫停/恢復動畫、重置動畫、動畫至垂直佈局）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable presentation commands in the command palette (Open presentation window, Sync presentation window to active card)",
+                    "target": "啟用指令面板中的簡報指令（開啟簡報視窗、將簡報視窗同步至作用中卡片）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable the special image gallery and fullscreen lightbox behavior for cards with multiple images",
+                    "target": "針對包含多張圖片的卡片，啟用特殊的圖片庫與全螢幕燈箱效果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables three commands: \"Open manual animation window\", \"Animate active card in manual animation window\", and \"Reset manual animation window\" (clears queued/in-progress manual typing so you can replay from a clean state).",
+                    "target": "啟用三項指令：「開啟手動動畫視窗」、「在手動動畫視窗中為作用中卡片製作動畫」以及「重置手動動畫視窗」（清除佇列中或進行中的手動打字，以便從初始狀態重新播放）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables the \"Type clipboard into new card\" command, which creates a new card and types the current clipboard text into it letter by letter.",
+                    "target": "啟用「將剪貼簿內容輸入至新卡片」指令，該指令會建立一張新卡片，並將目前剪貼簿中的文字逐字輸入至該卡片中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pauses Obsidian's editor Vim mode (note editing) while Branch Writing is open and restores it when you leave, so editing keys don't clash with the plugin. Does not affect Vim-style navigation elsewhere in the app.",
+                    "target": "當 Branch Writing 開啟時暫停 Obsidian 編輯器的 Vim 模式（筆記編輯），並在離開時恢復，以避免編輯按鍵與插件衝突。此設定不影響應用程式其他位置的 Vim 風格導航。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, you can use h/j/k/l keys for left/down/up/right navigation in addition to arrow keys.",
+                    "target": "啟用後，除了方向鍵外，您還可以使用 h/j/k/l 鍵進行左/下/上/右導航。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show or hide the \"More options\" submenu when right-clicking on cards",
+                    "target": "在卡片上按右鍵時顯示或隱藏「更多選項」子選單"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, new documents will include \"branch-writing: true\" in the YAML frontmatter.",
+                    "target": "啟用後，新文件將在 YAML 前言（frontmatter）中包含「branch-writing: true」。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, all parts of the active note (parent, child, and sibling cards) will be highlighted with a nice blue color to visually connect related content.",
+                    "target": "啟用後，活動筆記的所有部分（父卡片、子卡片和同級卡片）將以醒目的藍色高亮顯示，以視覺化連結相關內容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Local folder containing typing audio. Leave blank to disable.",
+                    "target": "包含打字音效的本地資料夾。留空則停用此功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show section numbers on each card",
+                    "target": "在每張卡片上顯示章節編號"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Switch between your current setup and a fresh install preview for Experimental defaults.",
+                    "target": "在您目前的設定與實驗性預設的全新安裝預覽之間進行切換。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Resets General, Colors, and Experimental preferences back to factory defaults. Document preferences, hotkeys, and style rules are not affected.",
+                    "target": "將「一般」、「顏色」與「實驗性」偏好設定重置為原廠預設值。文件偏好設定、快速鍵與樣式規則不受影響。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ctrl/Cmd-click copy includes metadata",
+                    "target": "Ctrl/Cmd 點擊複製時包含元數據"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open cross-file heading links in branch-writing view",
+                    "target": "在分支寫作視圖中開啟跨檔案標題連結"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show \"Name section\" in context menu",
+                    "target": "在右鍵選單中顯示「命名區段」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show \"Archive section\" in context menu",
+                    "target": "在右鍵選單中顯示「封存區段」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show \"Switch to heading\" in context menu",
+                    "target": "在右鍵選單中顯示「切換至標題」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show \"Replace section from clipboard\" in context menu",
+                    "target": "在右鍵選單中顯示「從剪貼簿取代區段」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show \"Duplicate branch\" in context menu",
+                    "target": "在右鍵選單中顯示「複製分支」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable animation commands",
+                    "target": "啟用動畫指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable presentation commands",
+                    "target": "啟用簡報指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable multi-image card lightbox",
+                    "target": "啟用多圖卡片燈箱效果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable manual card animation window",
+                    "target": "啟用手動卡片動畫視窗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable clipboard typing animation command",
+                    "target": "啟用剪貼簿輸入動畫指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pause editor Vim mode in Branch Writing",
+                    "target": "在分支寫作中暫停編輯器 Vim 模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Vim-style navigation (hjkl)",
+                    "target": "啟用 Vim 風格導航 (hjkl)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ctrl/Cmd+arrow to create branches",
+                    "target": "使用 Ctrl/Cmd+方向鍵建立分支"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show \"More options\" in context menu",
+                    "target": "在右鍵選單中顯示「更多選項」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add frontmatter to new documents",
+                    "target": "為新文件新增前言 (Frontmatter)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Connect active parts",
+                    "target": "連接活動部件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Personal audio assets path",
+                    "target": "個人音訊資源路徑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show section numbers",
+                    "target": "顯示章節編號"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Branch Writing settings",
+                    "target": "分支寫作設定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Experimental view mode",
+                    "target": "實驗性檢視模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset plugin settings to defaults",
+                    "target": "將外掛程式設定重設為預設值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search Branch Writing files...",
+                    "target": "搜尋 Branch Writing 檔案中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Confirm Move",
+                    "target": "確認移動"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open link?",
+                    "target": "開啟連結？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename file",
+                    "target": "重新命名檔案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Choose how to split this section",
+                    "target": "選擇分割此區段的方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add note to card",
+                    "target": "新增筆記至卡片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Duplicate",
+                    "target": "複製"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete",
+                    "target": "刪除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Update Branch Writing shortcuts",
+                    "target": "更新分支書寫捷徑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show numeric details",
+                    "target": "顯示數值詳情"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Collapse section",
+                    "target": "摺疊區段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARN]: ",
+                    "target": "[警告]: "
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy to clipboard on this device",
+                    "target": "此裝置無法複製至剪貼簿"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied branch with sections syntax to clipboard",
+                    "target": "已將包含區段語法的分支複製至剪貼簿"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied branch to clipboard",
+                    "target": "已將分支複製至剪貼簿"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied branch as plain text to clipboard",
+                    "target": "已將分支以純文字格式複製至剪貼簿"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not read clipboard on this device",
+                    "target": "此裝置無法讀取剪貼簿"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy search results on this device",
+                    "target": "此裝置無法複製搜尋結果"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied",
+                    "target": "已複製"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy link to clipboard",
+                    "target": "無法將連結複製至剪貼簿"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file to rename",
+                    "target": "無可重新命名的檔案"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid file name",
+                    "target": "無效的檔案名稱"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file is open",
+                    "target": "目前無開啟的檔案"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read clipboard on this device",
+                    "target": "無法在此裝置上讀取剪貼簿"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find section for this node",
+                    "target": "找不到此節點的對應區段"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Clipboard does not contain section markers",
+                    "target": "剪貼簿內不包含區段標記"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to verify file write. Changes have been rolled back.",
+                    "target": "檔案寫入驗證失敗。變更已復原。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Critical error: File may be in an inconsistent state. Please check the file manually.",
+                    "target": "嚴重錯誤：檔案可能處於不一致的狀態。請手動檢查檔案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not detect document format. Please reload the file manually.",
+                    "target": "無法偵測文件格式。請手動重新載入檔案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Section replaced successfully",
+                    "target": "區段已成功替換。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Section was replaced but failed to reload view. Please reload the file manually.",
+                    "target": "區段替換成功，但檢視畫面重新載入失敗。請手動重新載入檔案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied entire file to clipboard",
+                    "target": "已將整個檔案複製至剪貼簿。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy file content on this device",
+                    "target": "無法在此裝置上複製檔案內容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot archive: section not found",
+                    "target": "無法封存：找不到該區段。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Exit edit mode first, then paste image from the card menu.",
+                    "target": "請先退出編輯模式，再從卡片選單中貼上影像。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No image found in clipboard.",
+                    "target": "剪貼簿中未發現影像。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a Branch Writing file first.",
+                    "target": "請先開啟一個 Branch Writing 檔案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Exit edit mode first, then add a note from the card menu.",
+                    "target": "請先退出編輯模式，再從卡片選單中新增註記。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Type a note before saving.",
+                    "target": "儲存前請輸入備註。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note added to card.",
+                    "target": "備註已新增至卡片。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a note first.",
+                    "target": "請先開啟備註。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Backtrack plugin is required for section history.",
+                    "target": "章節歷史記錄功能需要 Backtrack 外掛程式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not open Backtrack history.",
+                    "target": "無法開啟 Backtrack 歷史記錄。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy section number on this device",
+                    "target": "此裝置無法複製章節編號。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied entire file with format to clipboard",
+                    "target": "已將包含格式的完整檔案複製至剪貼簿。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Document updated externally",
+                    "target": "文件已由外部更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a Branch Writing view first",
+                    "target": "請先開啟分支寫作 (Branch Writing) 檢視。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Branch Writing files found.",
+                    "target": "找不到分支寫作檔案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select a card first.",
+                    "target": "請先選擇一張卡片。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not add images to card.",
+                    "target": "無法將圖片新增至卡片。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enable presentation commands in Experimental settings.",
+                    "target": "請在「實驗性設定」中啟用簡報指令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Presentation window synced to active card",
+                    "target": "簡報視窗已同步至當前卡片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enable manual card animation in Experimental settings.",
+                    "target": "請在「實驗性設定」中啟用手動卡片動畫。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No source view found for manual animation.",
+                    "target": "找不到用於手動動畫的來源檢視。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not send animation command.",
+                    "target": "無法傳送動畫指令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not send reset command.",
+                    "target": "無法傳送重設指令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enable clipboard typing animation command in Experimental settings.",
+                    "target": "請在「實驗性設定」中啟用剪貼簿輸入動畫指令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enable animation commands in Experimental settings.",
+                    "target": "請在「實驗性設定」中啟用動畫指令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Note text",
+                    "target": "註記文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Toggle BranchWriting view",
+                    "target": "切換分支寫作檢視"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "branch-mobile-edit-btn branch-mobile-edit-btn--cancel",
+                    "target": "branch-mobile-edit-btn branch-mobile-edit-btn--cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "branch-mobile-edit-btn branch-mobile-edit-btn--done",
+                    "target": "branch-mobile-edit-btn branch-mobile-edit-btn--done"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon view-action branch-toggle-button",
+                    "target": "clickable-icon view-action branch-toggle-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Content",
+                    "target": "內容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the zoom buttons (zoom in, zoom out, reset, presets) in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏縮放按鈕（放大、縮小、重設、預設值）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Card style rules button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏卡片樣式規則按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Filter script branch leaf nodes button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏篩選指令碼分支葉節點按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Vertical space between cards button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏卡片間垂直間距按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Outline mode button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏「大綱模式」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Always center active card vertically button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏「始終垂直置中活動卡片」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Always center active card horizontally button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏「始終水平置中活動卡片」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Search (highlight only) button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏「搜尋（僅高亮）」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show or hide the Toggle section numbers button in the vertical toolbar",
+                    "target": "於垂直工具列中顯示或隱藏「切換章節編號」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Open a Branch Writing file first.",
+                    "target": "請先開啟一個 Branch Writing 檔案。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fit document",
+                    "target": "符合文件大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fit active branch",
+                    "target": "符合活動分支大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "More options",
+                    "target": "更多選項"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Search actions",
+                    "target": "搜尋動作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Inactive card opacity",
+                    "target": "非活動卡片不透明度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable animation commands",
+                    "target": "啟用動畫指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable presentation commands",
+                    "target": "啟用簡報指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable manual card animation",
+                    "target": "啟用手動卡片動畫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable clipboard typing animation command",
+                    "target": "啟用剪貼簿輸入動畫指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Ctrl/Cmd-click copy includes metadata",
+                    "target": "Ctrl/Cmd 點擊複製時包含元數據"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable multi-image card lightbox",
+                    "target": "啟用多圖卡片燈箱效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Blur card text",
+                    "target": "模糊卡片文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Connect active parts",
+                    "target": "連接活動部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Maintain editing mode",
+                    "target": "維持編輯模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show left sidebar button",
+                    "target": "顯示左側邊欄按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show minimap button",
+                    "target": "顯示小地圖按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show document history buttons",
+                    "target": "顯示文件歷史記錄按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show floating buttons",
+                    "target": "顯示懸浮按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show more options",
+                    "target": "顯示更多選項"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show name section",
+                    "target": "顯示名稱區塊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show archive section",
+                    "target": "顯示封存區塊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show switch to heading",
+                    "target": "顯示切換至標題"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show replace section from clipboard",
+                    "target": "顯示從剪貼簿取代區塊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Card style rules\" toolbar button",
+                    "target": "顯示「卡片樣式規則」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Filter script branch leaf nodes\" toolbar button",
+                    "target": "顯示「篩選指令碼分支葉節點」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Vertical space between cards\" toolbar button",
+                    "target": "顯示「卡片間垂直間距」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Outline mode\" toolbar button",
+                    "target": "顯示「大綱模式」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Center active card vertically\" toolbar button",
+                    "target": "顯示「垂直置中活動卡片」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Center active card horizontally\" toolbar button",
+                    "target": "顯示「水平置中活動卡片」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Search\" toolbar button",
+                    "target": "顯示「搜尋」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Toggle section numbers\" toolbar button",
+                    "target": "顯示「切換章節編號」工具列按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "General",
+                    "target": "一般"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Appearance",
+                    "target": "外觀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add images to active card",
+                    "target": "將影像新增至活動卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show zoom buttons",
+                    "target": "顯示縮放按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Card style rules\" button",
+                    "target": "顯示「卡片樣式規則」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Filter script branch leaf nodes\" button",
+                    "target": "顯示「篩選指令碼分支葉節點」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Vertical space between cards\" button",
+                    "target": "顯示「卡片間垂直間距」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Outline mode\" button",
+                    "target": "顯示「大綱模式」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Center active card vertically\" button",
+                    "target": "顯示「垂直置中活動卡片」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Center active card horizontally\" button",
+                    "target": "顯示「水平置中活動卡片」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Search\" button",
+                    "target": "顯示「搜尋」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Toggle section numbers\" button",
+                    "target": "顯示「切換章節編號」按鈕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter section name",
+                    "target": "輸入章節名稱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type note text...",
+                    "target": "請輸入筆記內容..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter secret word...",
+                    "target": "請輸入密語..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel (ESC)",
+                    "target": "取消 (ESC)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm (Enter)",
+                    "target": "確認 (Enter)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to open this link?",
+                    "target": "您確定要開啟此連結嗎？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel (Esc)",
+                    "target": "取消 (Esc)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open (Enter)",
+                    "target": "開啟 (Enter)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit card",
+                    "target": "編輯卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Done",
+                    "target": "完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rename",
+                    "target": "重新命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save",
+                    "target": "儲存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add note",
+                    "target": "新增註解"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search experimental settings",
+                    "target": "搜尋實驗性設定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fresh install preview shows what new users get by default (on/off) for Experimental settings.",
+                    "target": "全新安裝預覽會顯示新使用者在實驗性設定中預設取得的內容（開啟/關閉）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sorry unless you are Santi, this isn't a good place to be",
+                    "target": "抱歉，除非您是 Santi，否則此處不適合您。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your answer",
+                    "target": "您的回答"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Let me enter Experimental",
+                    "target": "讓我進入實驗性功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vim navigation shortcuts",
+                    "target": "Vim 導覽快速鍵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These are navigation shortcuts for those familiar with Vim. If you don't know what that is, ignore it.",
+                    "target": "這些是為熟悉 Vim 的使用者所設計的導覽快速鍵。若您不了解其用途，請忽略此選項。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Branch Writing updated how its shortcuts are named behind the scenes.",
+                    "target": "Branch Writing 已更新其底層捷徑的命名方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Shortcuts that will be updated:",
+                    "target": "將被更新的捷徑："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Later",
+                    "target": "稍後"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Migrate shortcuts",
+                    "target": "遷移捷徑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Archive section",
+                    "target": "封存區段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Paste image from clipboard",
+                    "target": "從剪貼簿貼上圖片"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setTitle(\"Confirm Move\")",
+                    "target": "setTitle(\"Confirm Move\")"
+                },
+                {
+                    "source": "Notice(\"Could not copy to clipboard on this device\")",
+                    "target": "Notice(\"Could not copy to clipboard on this device\")"
+                },
+                {
+                    "source": "Notice(\"Copied branch with sections syntax to clipboard\")",
+                    "target": "Notice(\"Copied branch with sections syntax to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Copied branch to clipboard\")",
+                    "target": "Notice(\"Copied branch to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Copied branch as plain text to clipboard\")",
+                    "target": "Notice(\"Copied branch as plain text to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Could not read clipboard on this device\")",
+                    "target": "Notice(\"Could not read clipboard on this device\")"
+                },
+                {
+                    "source": "setTitle(\"Open link?\")",
+                    "target": "setTitle(\"Open link?\")"
+                },
+                {
+                    "source": "Notice(\"Could not copy search results on this device\")",
+                    "target": "Notice(\"Could not copy search results on this device\")"
+                },
+                {
+                    "source": "setTooltip(\"Show numeric details\")",
+                    "target": "setTooltip(\"Show numeric details\")"
+                },
+                {
+                    "source": "setDesc(\n        `Hold '${isMacLike ? \"cmd\" : \"control\"}' to use the other option`\n      )",
+                    "target": "setDesc(\n        `Hold '${isMacLike ? \"cmd\" : \"control\"}' to use the other option`\n      )"
+                },
+                {
+                    "source": "setName(\"Ctrl/Cmd-click copy includes metadata\")",
+                    "target": "setName(\"Ctrl/Cmd-click copy includes metadata\")"
+                },
+                {
+                    "source": "setDesc(\n        \"When enabled, Ctrl/Cmd-click copies the card with source and section markers. Disable to copy only plain card text.\"\n      )",
+                    "target": "setDesc(\n        \"When enabled, Ctrl/Cmd-click copies the card with source and section markers. Disable to copy only plain card text.\"\n      )"
+                },
+                {
+                    "source": "setName(\n        \"Open cross-file heading links in branch-writing view\"\n      )",
+                    "target": "setName(\n        \"Open cross-file heading links in branch-writing view\"\n      )"
+                },
+                {
+                    "source": "setDesc(\n        \"When enabled, clicking links to headings in other files (e.g., [[Other Note#Heading]]) will open the file in branch-writing view and navigate to the card containing that heading. When disabled, uses standard Obsidian behavior (opens in editor mode).\"\n      )",
+                    "target": "setDesc(\n        \"When enabled, clicking links to headings in other files (e.g., [[Other Note#Heading]]) will open the file in branch-writing view and navigate to the card containing that heading. When disabled, uses standard Obsidian behavior (opens in editor mode).\"\n      )"
+                },
+                {
+                    "source": "Notice(\"Could not copy link to clipboard\")",
+                    "target": "Notice(\"Could not copy link to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"No file to rename\")",
+                    "target": "Notice(\"No file to rename\")"
+                },
+                {
+                    "source": "setTitle(\"Rename file\")",
+                    "target": "setTitle(\"Rename file\")"
+                },
+                {
+                    "source": "Notice(\"Invalid file name\")",
+                    "target": "Notice(\"Invalid file name\")"
+                },
+                {
+                    "source": "Notice(`File name was sanitized: \"${sanitizedName}\"`)",
+                    "target": "Notice(`File name was sanitized: \"${sanitizedName}\"`)"
+                },
+                {
+                    "source": "Notice(`File renamed to \"${sanitizedName}\"`)",
+                    "target": "Notice(`File renamed to \"${sanitizedName}\"`)"
+                },
+                {
+                    "source": "error(\"Error renaming file:\", error);\n          new import_obsidian50.Notice(`Failed to rename file: ${error instanceof Error ? error.message : \"Unknown error\"}`);\n        });\n      };\n      renameButton.onclick = handleRename;\n      input.onkeydown = (e) => {\n        if (e.key === \"Enter\")",
+                    "target": "error(\"Error renaming file:\", error);\n          new import_obsidian50.Notice(`Failed to rename file: ${error instanceof Error ? error.message : \"Unknown error\"}`);\n        });\n      };\n      renameButton.onclick = handleRename;\n      input.onkeydown = (e) => {\n        if (e.key === \"Enter\")"
+                },
+                {
+                    "source": "setTitle(\"Choose how to split this section\")",
+                    "target": "setTitle(\"Choose how to split this section\")"
+                },
+                {
+                    "source": "Notice(\"No file is open\")",
+                    "target": "Notice(\"No file is open\")"
+                },
+                {
+                    "source": "error(\"Failed to read clipboard:\", error);\n        new import_obsidian53.Notice(\"Failed to read clipboard on this device\")",
+                    "target": "error(\"Failed to read clipboard:\", error);\n        new import_obsidian53.Notice(\"Failed to read clipboard on this device\")"
+                },
+                {
+                    "source": "error(\"Failed to get section for node:\", nodeId, error);\n        new import_obsidian53.Notice(\"Could not find section for this node\")",
+                    "target": "error(\"Failed to get section for node:\", nodeId, error);\n        new import_obsidian53.Notice(\"Could not find section for this node\")"
+                },
+                {
+                    "source": "Notice(\"Clipboard does not contain section markers\")",
+                    "target": "Notice(\"Clipboard does not contain section markers\")"
+                },
+                {
+                    "source": "Notice(`\\u26A0\\uFE0F Not possible because structure doesn't match.\n\n${structureValidation.message}`)",
+                    "target": "Notice(`\\u26A0\\uFE0F Not possible because structure doesn't match.\n\n${structureValidation.message}`)"
+                },
+                {
+                    "source": "error(\"Failed to rollback changes:\", rollbackError);\n              new import_obsidian53.Notice(\"Critical error: File may be in an inconsistent state. Please check the file manually.\")",
+                    "target": "error(\"Failed to rollback changes:\", rollbackError);\n              new import_obsidian53.Notice(\"Critical error: File may be in an inconsistent state. Please check the file manually.\")"
+                },
+                {
+                    "source": "error(\"Could not detect document format for updated content\")",
+                    "target": "error(\"Could not detect document format for updated content\")"
+                },
+                {
+                    "source": "Notice(\"Could not detect document format. Please reload the file manually.\")",
+                    "target": "Notice(\"Could not detect document format. Please reload the file manually.\")"
+                },
+                {
+                    "source": "Notice(\"Section replaced successfully\")",
+                    "target": "Notice(\"Section replaced successfully\")"
+                },
+                {
+                    "source": "error(\"Failed to reload document:\", error);\n        new import_obsidian53.Notice(\"Section was replaced but failed to reload view. Please reload the file manually.\")",
+                    "target": "error(\"Failed to reload document:\", error);\n        new import_obsidian53.Notice(\"Section was replaced but failed to reload view. Please reload the file manually.\")"
+                },
+                {
+                    "source": "Notice(\"Copied entire file to clipboard\")",
+                    "target": "Notice(\"Copied entire file to clipboard\")"
+                },
+                {
+                    "source": "Notice(\"Could not copy file content on this device\")",
+                    "target": "Notice(\"Could not copy file content on this device\")"
+                },
+                {
+                    "source": "Notice(\"Cannot archive: section not found\")",
+                    "target": "Notice(\"Cannot archive: section not found\")"
+                },
+                {
+                    "source": "Notice(`Section ${section} unarchived`)",
+                    "target": "Notice(`Section ${section} unarchived`)"
+                },
+                {
+                    "source": "Notice(`Section ${section} archived`)",
+                    "target": "Notice(`Section ${section} archived`)"
+                },
+                {
+                    "source": "Notice(`Duplicated branch${children2.length > 0 ? ` with ${children2.length} child node${children2.length === 1 ? \"\" : \"s\"}` : \"\"}`)",
+                    "target": "Notice(`Duplicated branch${children2.length > 0 ? ` with ${children2.length} child node${children2.length === 1 ? \"\" : \"s\"}` : \"\"}`)"
+                },
+                {
+                    "source": "Notice(\"Exit edit mode first, then paste image from the card menu.\")",
+                    "target": "Notice(\"Exit edit mode first, then paste image from the card menu.\")"
+                },
+                {
+                    "source": "Notice(\"No image found in clipboard.\")",
+                    "target": "Notice(\"No image found in clipboard.\")"
+                },
+                {
+                    "source": "Notice(\"Open a Branch Writing file first.\")",
+                    "target": "Notice(\"Open a Branch Writing file first.\")"
+                },
+                {
+                    "source": "Notice(\"Exit edit mode first, then add a note from the card menu.\")",
+                    "target": "Notice(\"Exit edit mode first, then add a note from the card menu.\")"
+                },
+                {
+                    "source": "setTitle(\"Add note to card\")",
+                    "target": "setTitle(\"Add note to card\")"
+                },
+                {
+                    "source": "Notice(\"Type a note before saving.\")",
+                    "target": "Notice(\"Type a note before saving.\")"
+                },
+                {
+                    "source": "Notice(\"Note added to card.\")",
+                    "target": "Notice(\"Note added to card.\")"
+                },
+                {
+                    "source": "Notice(\"Open a note first.\")",
+                    "target": "Notice(\"Open a note first.\")"
+                },
+                {
+                    "source": "Notice(\"Backtrack plugin is required for section history.\")",
+                    "target": "Notice(\"Backtrack plugin is required for section history.\")"
+                },
+                {
+                    "source": "Notice(\"Could not open Backtrack history.\")",
+                    "target": "Notice(\"Could not open Backtrack history.\")"
+                },
+                {
+                    "source": "Notice(`Copied section number: ${section}`)",
+                    "target": "Notice(`Copied section number: ${section}`)"
+                },
+                {
+                    "source": "Notice(\"Could not copy section number on this device\")",
+                    "target": "Notice(\"Could not copy section number on this device\")"
+                },
+                {
+                    "source": "Notice(\"Copied entire file with format to clipboard\")",
+                    "target": "Notice(\"Copied entire file with format to clipboard\")"
+                },
+                {
+                    "source": "error(\"[branch-writing] saveNodeContent threw on active-leaf-change\", err);\n          }\n        }\n      }\n      if (action.type === \"plugin/documents/update-active-view-of-document\" || action.type === \"plugin/echo/workspace/resize\")",
+                    "target": "error(\"[branch-writing] saveNodeContent threw on active-leaf-change\", err);\n          }\n        }\n      }\n      if (action.type === \"plugin/documents/update-active-view-of-document\" || action.type === \"plugin/echo/workspace/resize\")"
+                },
+                {
+                    "source": "Notice(\"Document updated externally\")",
+                    "target": "Notice(\"Document updated externally\")"
+                },
+                {
+                    "source": "Notice(`Failed to rename file: ${message}`)",
+                    "target": "Notice(`Failed to rename file: ${message}`)"
+                },
+                {
+                    "source": "Notice(\n        `Personal audio assets not found at \"${normalizedRoot}\".${detail}`\n      )",
+                    "target": "Notice(\n        `Personal audio assets not found at \"${normalizedRoot}\".${detail}`\n      )"
+                },
+                {
+                    "source": "error(\"[Branch Writing] Could not find .columns-container\")",
+                    "target": "error(\"[Branch Writing] Could not find .columns-container\")"
+                },
+                {
+                    "source": "Notice(\"Open a Branch Writing view first\")",
+                    "target": "Notice(\"Open a Branch Writing view first\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Search Branch Writing files...\")",
+                    "target": "setPlaceholder(\"Search Branch Writing files...\")"
+                },
+                {
+                    "source": "Notice(\"No Branch Writing files found.\")",
+                    "target": "Notice(\"No Branch Writing files found.\")"
+                },
+                {
+                    "source": "Notice(\"Select a card first.\")",
+                    "target": "Notice(\"Select a card first.\")"
+                },
+                {
+                    "source": "Notice(`Added ${savedAttachments.length} image${plural} to card.`)",
+                    "target": "Notice(`Added ${savedAttachments.length} image${plural} to card.`)"
+                },
+                {
+                    "source": "Notice(\"Could not add images to card.\")",
+                    "target": "Notice(\"Could not add images to card.\")"
+                },
+                {
+                    "source": "Notice(\n              \"Enable presentation commands in Experimental settings.\"\n            )",
+                    "target": "Notice(\n              \"Enable presentation commands in Experimental settings.\"\n            )"
+                },
+                {
+                    "source": "Notice(\"Presentation window synced to active card\")",
+                    "target": "Notice(\"Presentation window synced to active card\")"
+                },
+                {
+                    "source": "Notice(\n              \"Enable manual card animation in Experimental settings.\"\n            )",
+                    "target": "Notice(\n              \"Enable manual card animation in Experimental settings.\"\n            )"
+                },
+                {
+                    "source": "Notice(\"No source view found for manual animation.\")",
+                    "target": "Notice(\"No source view found for manual animation.\")"
+                },
+                {
+                    "source": "Notice(\"Could not send animation command.\")",
+                    "target": "Notice(\"Could not send animation command.\")"
+                },
+                {
+                    "source": "Notice(\"Could not send reset command.\")",
+                    "target": "Notice(\"Could not send reset command.\")"
+                },
+                {
+                    "source": "Notice(\n              \"Enable clipboard typing animation command in Experimental settings.\"\n            )",
+                    "target": "Notice(\n              \"Enable clipboard typing animation command in Experimental settings.\"\n            )"
+                },
+                {
+                    "source": "Notice(\"Enable animation commands in Experimental settings.\")",
+                    "target": "Notice(\"Enable animation commands in Experimental settings.\")"
+                },
+                {
+                    "source": "Notice(\n          `Imported Branch Writing file${branchWritingFiles.length === 1 ? \"\" : \"s\"}`\n        )",
+                    "target": "Notice(\n          `Imported Branch Writing file${branchWritingFiles.length === 1 ? \"\" : \"s\"}`\n        )"
+                },
+                {
+                    "source": "setName('Show \"Name section\" in context menu')",
+                    "target": "setName('Show \"Name section\" in context menu')"
+                },
+                {
+                    "source": "setDesc('Show or hide the \"Name section\" option when right-clicking on cards')",
+                    "target": "setDesc('Show or hide the \"Name section\" option when right-clicking on cards')"
+                },
+                {
+                    "source": "setName('Show \"Archive section\" in context menu')",
+                    "target": "setName('Show \"Archive section\" in context menu')"
+                },
+                {
+                    "source": "setDesc('Show or hide the \"Archive section\" option when right-clicking on cards')",
+                    "target": "setDesc('Show or hide the \"Archive section\" option when right-clicking on cards')"
+                },
+                {
+                    "source": "setName('Show \"Switch to heading\" in context menu')",
+                    "target": "setName('Show \"Switch to heading\" in context menu')"
+                },
+                {
+                    "source": "setDesc('Show or hide the \"Switch to heading\" option when right-clicking on cards')",
+                    "target": "setDesc('Show or hide the \"Switch to heading\" option when right-clicking on cards')"
+                },
+                {
+                    "source": "setName('Show \"Replace section from clipboard\" in context menu')",
+                    "target": "setName('Show \"Replace section from clipboard\" in context menu')"
+                },
+                {
+                    "source": "setDesc('Show or hide the \"Replace section from clipboard\" option when right-clicking on cards')",
+                    "target": "setDesc('Show or hide the \"Replace section from clipboard\" option when right-clicking on cards')"
+                },
+                {
+                    "source": "setName('Show \"Duplicate branch\" in context menu')",
+                    "target": "setName('Show \"Duplicate branch\" in context menu')"
+                },
+                {
+                    "source": "setDesc('Show or hide the \"Duplicate branch\" option when right-clicking on cards')",
+                    "target": "setDesc('Show or hide the \"Duplicate branch\" option when right-clicking on cards')"
+                },
+                {
+                    "source": "setName(\"Enable animation commands\")",
+                    "target": "setName(\"Enable animation commands\")"
+                },
+                {
+                    "source": "setDesc(\"Enable the typing animation commands in the command palette (Start animation, Pause/resume animation, Reset animation, Animate to vertical layout)\")",
+                    "target": "setDesc(\"Enable the typing animation commands in the command palette (Start animation, Pause/resume animation, Reset animation, Animate to vertical layout)\")"
+                },
+                {
+                    "source": "setName(\"Enable presentation commands\")",
+                    "target": "setName(\"Enable presentation commands\")"
+                },
+                {
+                    "source": "setDesc(\n        \"Enable presentation commands in the command palette (Open presentation window, Sync presentation window to active card)\"\n      )",
+                    "target": "setDesc(\n        \"Enable presentation commands in the command palette (Open presentation window, Sync presentation window to active card)\"\n      )"
+                },
+                {
+                    "source": "setName(\"Enable multi-image card lightbox\")",
+                    "target": "setName(\"Enable multi-image card lightbox\")"
+                },
+                {
+                    "source": "setDesc(\n        \"Enable the special image gallery and fullscreen lightbox behavior for cards with multiple images\"\n      )",
+                    "target": "setDesc(\n        \"Enable the special image gallery and fullscreen lightbox behavior for cards with multiple images\"\n      )"
+                },
+                {
+                    "source": "setName(\"Enable manual card animation window\")",
+                    "target": "setName(\"Enable manual card animation window\")"
+                },
+                {
+                    "source": "setDesc(\n        'Enables three commands: \"Open manual animation window\", \"Animate active card in manual animation window\", and \"Reset manual animation window\" (clears queued/in-progress manual typing so you can replay from a clean state).'\n      )",
+                    "target": "setDesc(\n        'Enables three commands: \"Open manual animation window\", \"Animate active card in manual animation window\", and \"Reset manual animation window\" (clears queued/in-progress manual typing so you can replay from a clean state).'\n      )"
+                },
+                {
+                    "source": "setName(\"Enable clipboard typing animation command\")",
+                    "target": "setName(\"Enable clipboard typing animation command\")"
+                },
+                {
+                    "source": "setDesc(\n        'Enables the \"Type clipboard into new card\" command, which creates a new card and types the current clipboard text into it letter by letter.'\n      )",
+                    "target": "setDesc(\n        'Enables the \"Type clipboard into new card\" command, which creates a new card and types the current clipboard text into it letter by letter.'\n      )"
+                },
+                {
+                    "source": "setName(\"Pause editor Vim mode in Branch Writing\")",
+                    "target": "setName(\"Pause editor Vim mode in Branch Writing\")"
+                },
+                {
+                    "source": "setDesc(\n        \"Pauses Obsidian's editor Vim mode (note editing) while Branch Writing is open and restores it when you leave, so editing keys don't clash with the plugin. Does not affect Vim-style navigation elsewhere in the app.\"\n      )",
+                    "target": "setDesc(\n        \"Pauses Obsidian's editor Vim mode (note editing) while Branch Writing is open and restores it when you leave, so editing keys don't clash with the plugin. Does not affect Vim-style navigation elsewhere in the app.\"\n      )"
+                },
+                {
+                    "source": "setName(\"Enable Vim-style navigation (hjkl)\")",
+                    "target": "setName(\"Enable Vim-style navigation (hjkl)\")"
+                },
+                {
+                    "source": "setDesc(\"When enabled, you can use h/j/k/l keys for left/down/up/right navigation in addition to arrow keys.\")",
+                    "target": "setDesc(\"When enabled, you can use h/j/k/l keys for left/down/up/right navigation in addition to arrow keys.\")"
+                },
+                {
+                    "source": "setName(\"Ctrl/Cmd+arrow to create branches\")",
+                    "target": "setName(\"Ctrl/Cmd+arrow to create branches\")"
+                },
+                {
+                    "source": "setName('Show \"More options\" in context menu')",
+                    "target": "setName('Show \"More options\" in context menu')"
+                },
+                {
+                    "source": "setDesc('Show or hide the \"More options\" submenu when right-clicking on cards')",
+                    "target": "setDesc('Show or hide the \"More options\" submenu when right-clicking on cards')"
+                },
+                {
+                    "source": "setName(\"Add frontmatter to new documents\")",
+                    "target": "setName(\"Add frontmatter to new documents\")"
+                },
+                {
+                    "source": "setDesc('When enabled, new documents will include \"branch-writing: true\" in the YAML frontmatter.')",
+                    "target": "setDesc('When enabled, new documents will include \"branch-writing: true\" in the YAML frontmatter.')"
+                },
+                {
+                    "source": "setName(\n        \"Connect active parts\"\n      )",
+                    "target": "setName(\n        \"Connect active parts\"\n      )"
+                },
+                {
+                    "source": "setDesc(\n        \"When enabled, all parts of the active note (parent, child, and sibling cards) will be highlighted with a nice blue color to visually connect related content.\"\n      )",
+                    "target": "setDesc(\n        \"When enabled, all parts of the active note (parent, child, and sibling cards) will be highlighted with a nice blue color to visually connect related content.\"\n      )"
+                },
+                {
+                    "source": "setName(\"Personal audio assets path\")",
+                    "target": "setName(\"Personal audio assets path\")"
+                },
+                {
+                    "source": "setDesc(\n        \"Local folder containing typing audio. Leave blank to disable.\"\n      )",
+                    "target": "setDesc(\n        \"Local folder containing typing audio. Leave blank to disable.\"\n      )"
+                },
+                {
+                    "source": "setName(\"Show section numbers\")",
+                    "target": "setName(\"Show section numbers\")"
+                },
+                {
+                    "source": "setDesc(\"Show section numbers on each card\")",
+                    "target": "setDesc(\"Show section numbers on each card\")"
+                },
+                {
+                    "source": "setName(\"Branch Writing settings\")",
+                    "target": "setName(\"Branch Writing settings\")"
+                },
+                {
+                    "source": "setName(\"Experimental view mode\")",
+                    "target": "setName(\"Experimental view mode\")"
+                },
+                {
+                    "source": "setDesc(\"Switch between your current setup and a fresh install preview for Experimental defaults.\")",
+                    "target": "setDesc(\"Switch between your current setup and a fresh install preview for Experimental defaults.\")"
+                },
+                {
+                    "source": "setTooltip(\"Collapse section\")",
+                    "target": "setTooltip(\"Collapse section\")"
+                },
+                {
+                    "source": "setName(\"Reset plugin settings to defaults\")",
+                    "target": "setName(\"Reset plugin settings to defaults\")"
+                },
+                {
+                    "source": "setDesc(\"Resets General, Colors, and Experimental preferences back to factory defaults. Document preferences, hotkeys, and style rules are not affected.\")",
+                    "target": "setDesc(\"Resets General, Colors, and Experimental preferences back to factory defaults. Document preferences, hotkeys, and style rules are not affected.\")"
+                },
+                {
+                    "source": "setButtonText(\"Reset all\")",
+                    "target": "setButtonText(\"Reset all\")"
+                },
+                {
+                    "source": "Notice(\n        `Migrated ${migrations.length} Branch Writing shortcut${migrations.length === 1 ? \"\" : \"s\"} to the new command IDs.`\n      )",
+                    "target": "Notice(\n        `Migrated ${migrations.length} Branch Writing shortcut${migrations.length === 1 ? \"\" : \"s\"} to the new command IDs.`\n      )"
+                },
+                {
+                    "source": "setTitle(\"Update Branch Writing shortcuts\")",
+                    "target": "setTitle(\"Update Branch Writing shortcuts\")"
+                },
+                {
+                    "source": "name: \"go_right\"",
+                    "target": "name: \"go_right\""
+                },
+                {
+                    "source": "name: \"go_left\"",
+                    "target": "name: \"go_left\""
+                },
+                {
+                    "source": "name: \"go_down\"",
+                    "target": "name: \"go_down\""
+                },
+                {
+                    "source": "name: \"go_up\"",
+                    "target": "name: \"go_up\""
+                },
+                {
+                    "source": "name: \"select_parent\"",
+                    "target": "name: \"select_parent\""
+                },
+                {
+                    "source": "name: \"navigate_to_next_node\"",
+                    "target": "name: \"navigate_to_next_node\""
+                },
+                {
+                    "source": "name: \"navigate_to_previous_node\"",
+                    "target": "name: \"navigate_to_previous_node\""
+                },
+                {
+                    "source": "name: \"go_to_beginning_of_group\"",
+                    "target": "name: \"go_to_beginning_of_group\""
+                },
+                {
+                    "source": "name: \"go_to_end_of_group\"",
+                    "target": "name: \"go_to_end_of_group\""
+                },
+                {
+                    "source": "name: \"go_to_beginning_of_column\"",
+                    "target": "name: \"go_to_beginning_of_column\""
+                },
+                {
+                    "source": "name: \"go_to_end_of_column\"",
+                    "target": "name: \"go_to_end_of_column\""
+                },
+                {
+                    "source": "name: \"navigate_back\"",
+                    "target": "name: \"navigate_back\""
+                },
+                {
+                    "source": "name: \"navigate_forward\"",
+                    "target": "name: \"navigate_forward\""
+                },
+                {
+                    "source": "name: \"enable_edit_mode\"",
+                    "target": "name: \"enable_edit_mode\""
+                },
+                {
+                    "source": "name: \"enable_edit_mode_and_place_cursor_at_start\"",
+                    "target": "name: \"enable_edit_mode_and_place_cursor_at_start\""
+                },
+                {
+                    "source": "name: \"enable_edit_mode_and_place_cursor_at_end\"",
+                    "target": "name: \"enable_edit_mode_and_place_cursor_at_end\""
+                },
+                {
+                    "source": "name: \"save_changes_and_exit_card\"",
+                    "target": "name: \"save_changes_and_exit_card\""
+                },
+                {
+                    "source": "name: \"cycle_task_state\"",
+                    "target": "name: \"cycle_task_state\""
+                },
+                {
+                    "source": "name: \"disable_edit_mode\"",
+                    "target": "name: \"disable_edit_mode\""
+                },
+                {
+                    "source": "name: \"add_above\"",
+                    "target": "name: \"add_above\""
+                },
+                {
+                    "source": "name: \"add_below\"",
+                    "target": "name: \"add_below\""
+                },
+                {
+                    "source": "name: \"add_child\"",
+                    "target": "name: \"add_child\""
+                },
+                {
+                    "source": "name: \"add_parent_sibling\"",
+                    "target": "name: \"add_parent_sibling\""
+                },
+                {
+                    "source": "name: \"add_above_and_split\"",
+                    "target": "name: \"add_above_and_split\""
+                },
+                {
+                    "source": "name: \"add_below_and_split\"",
+                    "target": "name: \"add_below_and_split\""
+                },
+                {
+                    "source": "name: \"add_child_and_split\"",
+                    "target": "name: \"add_child_and_split\""
+                },
+                {
+                    "source": "text: `Moving this node ${directionText} will change its parent. Do you want to continue?`",
+                    "target": "text: `Moving this node ${directionText} will change its parent. Do you want to continue?`"
+                },
+                {
+                    "source": "text: \"Cancel (ESC)\"",
+                    "target": "text: \"Cancel (ESC)\""
+                },
+                {
+                    "source": "text: \"Confirm (Enter)\"",
+                    "target": "text: \"Confirm (Enter)\""
+                },
+                {
+                    "source": "name: \"move_node_up\"",
+                    "target": "name: \"move_node_up\""
+                },
+                {
+                    "source": "name: \"move_node_down\"",
+                    "target": "name: \"move_node_down\""
+                },
+                {
+                    "source": "name: \"move_node_right\"",
+                    "target": "name: \"move_node_right\""
+                },
+                {
+                    "source": "name: \"move_node_left\"",
+                    "target": "name: \"move_node_left\""
+                },
+                {
+                    "source": "selection: \"Export\"",
+                    "target": "selection: \"Export\""
+                },
+                {
+                    "source": "search: \"Fuzzy search\"",
+                    "target": "search: \"Fuzzy search\""
+                },
+                {
+                    "source": "search: \"Search\"",
+                    "target": "search: \"Search\""
+                },
+                {
+                    "source": "selection: \"Select\"",
+                    "target": "selection: \"Select\""
+                },
+                {
+                    "source": "settings: \"Settings\"",
+                    "target": "settings: \"Settings\""
+                },
+                {
+                    "source": "name: \"merge_with_node_above\"",
+                    "target": "name: \"merge_with_node_above\""
+                },
+                {
+                    "source": "name: \"merge_with_node_below\"",
+                    "target": "name: \"merge_with_node_below\""
+                },
+                {
+                    "source": "name: \"undo_change\"",
+                    "target": "name: \"undo_change\""
+                },
+                {
+                    "source": "name: \"redo_change\"",
+                    "target": "name: \"redo_change\""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "name: \"copy_node\"",
+                    "target": "name: \"copy_node\""
+                },
+                {
+                    "source": "name: \"copy_node_unformatted\"",
+                    "target": "name: \"copy_node_unformatted\""
+                },
+                {
+                    "source": "name: \"cut_node\"",
+                    "target": "name: \"cut_node\""
+                },
+                {
+                    "source": "name: \"paste_node\"",
+                    "target": "name: \"paste_node\""
+                },
+                {
+                    "source": "name: \"select_all_nodes\"",
+                    "target": "name: \"select_all_nodes\""
+                },
+                {
+                    "source": "name: \"extend_select_up\"",
+                    "target": "name: \"extend_select_up\""
+                },
+                {
+                    "source": "name: \"extend_select_down\"",
+                    "target": "name: \"extend_select_down\""
+                },
+                {
+                    "source": "name: \"extend_select_to_end_of_column\"",
+                    "target": "name: \"extend_select_to_end_of_column\""
+                },
+                {
+                    "source": "name: \"extend_select_to_start_of_column\"",
+                    "target": "name: \"extend_select_to_start_of_column\""
+                },
+                {
+                    "source": "name: \"extend_select_to_end_of_group\"",
+                    "target": "name: \"extend_select_to_end_of_group\""
+                },
+                {
+                    "source": "name: \"extend_select_to_start_of_group\"",
+                    "target": "name: \"extend_select_to_start_of_group\""
+                },
+                {
+                    "source": "name: \"scroll_right\"",
+                    "target": "name: \"scroll_right\""
+                },
+                {
+                    "source": "name: \"scroll_left\"",
+                    "target": "name: \"scroll_left\""
+                },
+                {
+                    "source": "name: \"scroll_up\"",
+                    "target": "name: \"scroll_up\""
+                },
+                {
+                    "source": "name: \"scroll_down\"",
+                    "target": "name: \"scroll_down\""
+                },
+                {
+                    "source": "name: \"align_branch\"",
+                    "target": "name: \"align_branch\""
+                },
+                {
+                    "source": "name: \"delete_card\"",
+                    "target": "name: \"delete_card\""
+                },
+                {
+                    "source": "name: \"toggle_search_input\"",
+                    "target": "name: \"toggle_search_input\""
+                },
+                {
+                    "source": "name: \"zoom_in\"",
+                    "target": "name: \"zoom_in\""
+                },
+                {
+                    "source": "name: \"zoom_out\"",
+                    "target": "name: \"zoom_out\""
+                },
+                {
+                    "source": "name: \"zoom_reset\"",
+                    "target": "name: \"zoom_reset\""
+                },
+                {
+                    "source": "name: \"toggle_outline_mode\"",
+                    "target": "name: \"toggle_outline_mode\""
+                },
+                {
+                    "source": "name: \"toggle_collapse\"",
+                    "target": "name: \"toggle_collapse\""
+                },
+                {
+                    "source": "name: \"toggle_collapse_all\"",
+                    "target": "name: \"toggle_collapse_all\""
+                },
+                {
+                    "source": "name: \"branch-cards\"",
+                    "target": "name: \"branch-cards\""
+                },
+                {
+                    "source": "name: \"branch-split\"",
+                    "target": "name: \"branch-split\""
+                },
+                {
+                    "source": "name: \"branch-align-horizontal\"",
+                    "target": "name: \"branch-align-horizontal\""
+                },
+                {
+                    "source": "name: \"branch-align-vertical\"",
+                    "target": "name: \"branch-align-vertical\""
+                },
+                {
+                    "source": "name: \"cards-gap\"",
+                    "target": "name: \"cards-gap\""
+                },
+                {
+                    "source": "name: \"outline\"",
+                    "target": "name: \"outline\""
+                },
+                {
+                    "source": "name: \"cursor-off\"",
+                    "target": "name: \"cursor-off\""
+                },
+                {
+                    "source": "name: \"cursor\"",
+                    "target": "name: \"cursor\""
+                },
+                {
+                    "source": "name: \"arrow-down-wide-narrow\"",
+                    "target": "name: \"arrow-down-wide-narrow\""
+                },
+                {
+                    "source": "name: \"arrow-left\"",
+                    "target": "name: \"arrow-left\""
+                },
+                {
+                    "source": "name: \"arrow-right\"",
+                    "target": "name: \"arrow-right\""
+                },
+                {
+                    "source": "name: \"arrow-up-narrow-wide\"",
+                    "target": "name: \"arrow-up-narrow-wide\""
+                },
+                {
+                    "source": "name: \"chevron-down\"",
+                    "target": "name: \"chevron-down\""
+                },
+                {
+                    "source": "name: \"chevron-right\"",
+                    "target": "name: \"chevron-right\""
+                },
+                {
+                    "source": "name: \"chevron-up\"",
+                    "target": "name: \"chevron-up\""
+                },
+                {
+                    "source": "name: \"clipboard-paste\"",
+                    "target": "name: \"clipboard-paste\""
+                },
+                {
+                    "source": "name: \"clock\"",
+                    "target": "name: \"clock\""
+                },
+                {
+                    "source": "name: \"copy\"",
+                    "target": "name: \"copy\""
+                },
+                {
+                    "source": "name: \"eye\"",
+                    "target": "name: \"eye\""
+                },
+                {
+                    "source": "name: \"file-minus\"",
+                    "target": "name: \"file-minus\""
+                },
+                {
+                    "source": "name: \"file-output\"",
+                    "target": "name: \"file-output\""
+                },
+                {
+                    "source": "name: \"file-pen\"",
+                    "target": "name: \"file-pen\""
+                },
+                {
+                    "source": "name: \"file-plus\"",
+                    "target": "name: \"file-plus\""
+                },
+                {
+                    "source": "name: \"file-symlink\"",
+                    "target": "name: \"file-symlink\""
+                },
+                {
+                    "source": "name: \"file-text\"",
+                    "target": "name: \"file-text\""
+                },
+                {
+                    "source": "name: \"file-up\"",
+                    "target": "name: \"file-up\""
+                },
+                {
+                    "source": "name: \"filter\"",
+                    "target": "name: \"filter\""
+                },
+                {
+                    "source": "name: \"focus\"",
+                    "target": "name: \"focus\""
+                },
+                {
+                    "source": "name: \"globe\"",
+                    "target": "name: \"globe\""
+                },
+                {
+                    "source": "name: \"hash\"",
+                    "target": "name: \"hash\""
+                },
+                {
+                    "source": "name: \"heading-1\"",
+                    "target": "name: \"heading-1\""
+                },
+                {
+                    "source": "name: \"history\"",
+                    "target": "name: \"history\""
+                },
+                {
+                    "source": "name: \"info\"",
+                    "target": "name: \"info\""
+                },
+                {
+                    "source": "name: \"list-todo\"",
+                    "target": "name: \"list-todo\""
+                },
+                {
+                    "source": "name: \"merge\"",
+                    "target": "name: \"merge\""
+                },
+                {
+                    "source": "name: \"minus\"",
+                    "target": "name: \"minus\""
+                },
+                {
+                    "source": "name: \"more-horizontal\"",
+                    "target": "name: \"more-horizontal\""
+                },
+                {
+                    "source": "name: \"more-vertical\"",
+                    "target": "name: \"more-vertical\""
+                },
+                {
+                    "source": "name: \"palette\"",
+                    "target": "name: \"palette\""
+                },
+                {
+                    "source": "name: \"panel-left-dashed\"",
+                    "target": "name: \"panel-left-dashed\""
+                },
+                {
+                    "source": "name: \"panel-right-dashed\"",
+                    "target": "name: \"panel-right-dashed\""
+                },
+                {
+                    "source": "name: \"pencil\"",
+                    "target": "name: \"pencil\""
+                },
+                {
+                    "source": "name: \"pin\"",
+                    "target": "name: \"pin\""
+                },
+                {
+                    "source": "name: \"plus\"",
+                    "target": "name: \"plus\""
+                },
+                {
+                    "source": "name: \"redo-2\"",
+                    "target": "name: \"redo-2\""
+                },
+                {
+                    "source": "name: \"rotate-ccw\"",
+                    "target": "name: \"rotate-ccw\""
+                },
+                {
+                    "source": "name: \"rotate-cw\"",
+                    "target": "name: \"rotate-cw\""
+                },
+                {
+                    "source": "name: \"save\"",
+                    "target": "name: \"save\""
+                },
+                {
+                    "source": "name: \"scan-search\"",
+                    "target": "name: \"scan-search\""
+                },
+                {
+                    "source": "name: \"scissors\"",
+                    "target": "name: \"scissors\""
+                },
+                {
+                    "source": "name: \"search\"",
+                    "target": "name: \"search\""
+                },
+                {
+                    "source": "name: \"settings\"",
+                    "target": "name: \"settings\""
+                },
+                {
+                    "source": "name: \"split\"",
+                    "target": "name: \"split\""
+                },
+                {
+                    "source": "name: \"text\"",
+                    "target": "name: \"text\""
+                },
+                {
+                    "source": "name: \"trash\"",
+                    "target": "name: \"trash\""
+                },
+                {
+                    "source": "name: \"undo-2\"",
+                    "target": "name: \"undo-2\""
+                },
+                {
+                    "source": "textContent = `${state2.index + 1} / ${total}`",
+                    "target": "textContent = `${state2.index + 1} / ${total}`"
+                },
+                {
+                    "source": "textContent = \"Close\"",
+                    "target": "textContent = \"Close\""
+                },
+                {
+                    "source": "textContent = \"Prev\"",
+                    "target": "textContent = \"Prev\""
+                },
+                {
+                    "source": "textContent = \"Next\"",
+                    "target": "textContent = \"Next\""
+                },
+                {
+                    "source": "text: \"Are you sure you want to open this link?\"",
+                    "target": "text: \"Are you sure you want to open this link?\""
+                },
+                {
+                    "source": "text: \"Cancel (Esc)\"",
+                    "target": "text: \"Cancel (Esc)\""
+                },
+                {
+                    "source": "text: \"Open (Enter)\"",
+                    "target": "text: \"Open (Enter)\""
+                },
+                {
+                    "source": "text: \"Edit card\"",
+                    "target": "text: \"Edit card\""
+                },
+                {
+                    "source": "text: \"Cancel\"",
+                    "target": "text: \"Cancel\""
+                },
+                {
+                    "source": "text: \"Done\"",
+                    "target": "text: \"Done\""
+                },
+                {
+                    "source": "textContent = \"Done\"",
+                    "target": "textContent = \"Done\""
+                },
+                {
+                    "source": "name: \"General\"",
+                    "target": "name: \"General\""
+                },
+                {
+                    "source": "name: \"Appearance\"",
+                    "target": "name: \"Appearance\""
+                },
+                {
+                    "source": "textContent = `${/*info*/\n      ctx[4].label}`",
+                    "target": "textContent = `${/*info*/\n      ctx[4].label}`"
+                },
+                {
+                    "source": "textContent = `${/*sections*/\n      ctx[5]}`",
+                    "target": "textContent = `${/*sections*/\n      ctx[5]}`"
+                },
+                {
+                    "source": "textContent = `${/*chars*/\n      ctx[6]}`",
+                    "target": "textContent = `${/*chars*/\n      ctx[6]}`"
+                },
+                {
+                    "source": "textContent = \"blank\"",
+                    "target": "textContent = \"blank\""
+                },
+                {
+                    "source": "name = \"Untitled\"",
+                    "target": "name = \"Untitled\""
+                },
+                {
+                    "source": "link = `[[${fileName}#^${output.blockId}]]`",
+                    "target": "link = `[[${fileName}#^${output.blockId}]]`"
+                },
+                {
+                    "source": "text: \"Rename\"",
+                    "target": "text: \"Rename\""
+                },
+                {
+                    "source": "textContent = \"This section does not match any splitting pattern\"",
+                    "target": "textContent = \"This section does not match any splitting pattern\""
+                },
+                {
+                    "source": "textContent = \"Cancel\"",
+                    "target": "textContent = \"Cancel\""
+                },
+                {
+                    "source": "text: \"Save\"",
+                    "target": "text: \"Save\""
+                },
+                {
+                    "source": "link : `!${link}`",
+                    "target": "link : `!${link}`"
+                },
+                {
+                    "source": "text: \"Add note\"",
+                    "target": "text: \"Add note\""
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.properties[\n        /*property*/\n        ctx[13]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.properties[\n        /*property*/\n        ctx[13]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.targets[\n        /*target*/\n        ctx[10]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.targets[\n        /*target*/\n        ctx[10]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.operators[\n        /*operator*/\n        ctx[5]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.operators[\n        /*operator*/\n        ctx[5]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${styleRulesLang.styleVariants[\n        /*styleType*/\n        ctx[3]\n      ]}`",
+                    "target": "textContent = `${styleRulesLang.styleVariants[\n        /*styleType*/\n        ctx[3]\n      ]}`"
+                },
+                {
+                    "source": "textContent = `${lang.modals_rules_no_rules}`",
+                    "target": "textContent = `${lang.modals_rules_no_rules}`"
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "textContent = `${lang.modals_rules_add_rule}`",
+                    "target": "textContent = `${lang.modals_rules_add_rule}`"
+                },
+                {
+                    "source": "name: \"Add images to active card\"",
+                    "target": "name: \"Add images to active card\""
+                },
+                {
+                    "source": "name: \"name\"",
+                    "target": "name: \"name\""
+                },
+                {
+                    "source": "name: \"description\"",
+                    "target": "name: \"description\""
+                },
+                {
+                    "source": "text: \"Search experimental settings\"",
+                    "target": "text: \"Search experimental settings\""
+                },
+                {
+                    "source": "textContent = \"No experimental settings match your search.\"",
+                    "target": "textContent = \"No experimental settings match your search.\""
+                },
+                {
+                    "source": "text: \"Fresh install preview shows what new users get by default (on/off) for Experimental settings.\"",
+                    "target": "text: \"Fresh install preview shows what new users get by default (on/off) for Experimental settings.\""
+                },
+                {
+                    "source": "textContent = \"General\"",
+                    "target": "textContent = \"General\""
+                },
+                {
+                    "source": "textContent = \"Colors\"",
+                    "target": "textContent = \"Colors\""
+                },
+                {
+                    "source": "textContent = \"Experimental\"",
+                    "target": "textContent = \"Experimental\""
+                },
+                {
+                    "source": "text: \"Sorry unless you are Santi, this isn't a good place to be\"",
+                    "target": "text: \"Sorry unless you are Santi, this isn't a good place to be\""
+                },
+                {
+                    "source": "textContent = \"These are some extra controls currently designed for me (Santi), so unless you are me, which you probably aren't, just close this and never try to get here again.\"",
+                    "target": "textContent = \"These are some extra controls currently designed for me (Santi), so unless you are me, which you probably aren't, just close this and never try to get here again.\""
+                },
+                {
+                    "source": "textContent = \"But if you are me, enter the secret word to get in here:\"",
+                    "target": "textContent = \"But if you are me, enter the secret word to get in here:\""
+                },
+                {
+                    "source": "text: \"Your answer\"",
+                    "target": "text: \"Your answer\""
+                },
+                {
+                    "source": "text: \"Let me enter Experimental\"",
+                    "target": "text: \"Let me enter Experimental\""
+                },
+                {
+                    "source": "name: \"Show zoom buttons\"",
+                    "target": "name: \"Show zoom buttons\""
+                },
+                {
+                    "source": "description: \"Show or hide the zoom buttons (zoom in, zoom out, reset, presets) in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the zoom buttons (zoom in, zoom out, reset, presets) in the vertical toolbar\""
+                },
+                {
+                    "source": "text: \"Vim navigation shortcuts\"",
+                    "target": "text: \"Vim navigation shortcuts\""
+                },
+                {
+                    "source": "text: \"These are navigation shortcuts for those familiar with Vim. If you don't know what that is, ignore it.\"",
+                    "target": "text: \"These are navigation shortcuts for those familiar with Vim. If you don't know what that is, ignore it.\""
+                },
+                {
+                    "source": "name: 'Show \"Card style rules\" button'",
+                    "target": "name: 'Show \"Card style rules\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Card style rules button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Card style rules button in the vertical toolbar\""
+                },
+                {
+                    "source": "name: 'Show \"Filter script branch leaf nodes\" button'",
+                    "target": "name: 'Show \"Filter script branch leaf nodes\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Filter script branch leaf nodes button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Filter script branch leaf nodes button in the vertical toolbar\""
+                },
+                {
+                    "source": "name: 'Show \"Vertical space between cards\" button'",
+                    "target": "name: 'Show \"Vertical space between cards\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Vertical space between cards button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Vertical space between cards button in the vertical toolbar\""
+                },
+                {
+                    "source": "name: 'Show \"Outline mode\" button'",
+                    "target": "name: 'Show \"Outline mode\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Outline mode button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Outline mode button in the vertical toolbar\""
+                },
+                {
+                    "source": "name: 'Show \"Center active card vertically\" button'",
+                    "target": "name: 'Show \"Center active card vertically\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Always center active card vertically button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Always center active card vertically button in the vertical toolbar\""
+                },
+                {
+                    "source": "name: 'Show \"Center active card horizontally\" button'",
+                    "target": "name: 'Show \"Center active card horizontally\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Always center active card horizontally button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Always center active card horizontally button in the vertical toolbar\""
+                },
+                {
+                    "source": "name: 'Show \"Search\" button'",
+                    "target": "name: 'Show \"Search\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Search (highlight only) button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Search (highlight only) button in the vertical toolbar\""
+                },
+                {
+                    "source": "name: 'Show \"Toggle section numbers\" button'",
+                    "target": "name: 'Show \"Toggle section numbers\" button'"
+                },
+                {
+                    "source": "description: \"Show or hide the Toggle section numbers button in the vertical toolbar\"",
+                    "target": "description: \"Show or hide the Toggle section numbers button in the vertical toolbar\""
+                },
+                {
+                    "source": "text: \"Branch Writing updated how its shortcuts are named behind the scenes.\"",
+                    "target": "text: \"Branch Writing updated how its shortcuts are named behind the scenes.\""
+                },
+                {
+                    "source": "text: \"Shortcuts that will be updated:\"",
+                    "target": "text: \"Shortcuts that will be updated:\""
+                },
+                {
+                    "source": "text: `And ${migrations.length - 5} more shortcut${migrations.length - 5 === 1 ? \"\" : \"s\"}.`",
+                    "target": "text: `And ${migrations.length - 5} more shortcut${migrations.length - 5 === 1 ? \"\" : \"s\"}.`"
+                },
+                {
+                    "source": "text: \"Later\"",
+                    "target": "text: \"Later\""
+                },
+                {
+                    "source": "text: \"Migrate shortcuts\"",
+                    "target": "text: \"Migrate shortcuts\""
+                }
+            ]
+        }
+    }
+}

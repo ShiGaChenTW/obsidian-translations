@@ -1,0 +1,632 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-advanced-slides",
+        "version": "1.0.0",
+        "title": "Advanced Slides",
+        "description": "Advanced Slides Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "1.20.0",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "split Workspace",
+                    "target": "分割工作區"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "as Tab",
+                    "target": "作為分頁"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Never",
+                    "target": "從不"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "only in Slide Preview",
+                    "target": "僅在投影片預覽中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Always",
+                    "target": "總是"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "glob error",
+                    "target": "全域錯誤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "REQUEST %s",
+                    "target": "請求 %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Ignoring encoding parameter as this stream is being piped to another stream which makes the encoding option invalid.",
+                    "target": "由於此串流正被導向至另一個串流，導致編碼選項無效，因此忽略編碼參數。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "server stopped",
+                    "target": "伺服器已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How should slide previews be displayed?",
+                    "target": "應如何顯示投影片預覽？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On which port should Advanced Slides run? (default: 3000)",
+                    "target": "Advanced Slides 應於何種連接埠執行？（預設值：3000）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Should the slide preview window be updated when a change in source file is detected?",
+                    "target": "當偵測到來源檔案變更時，是否應更新投影片預覽視窗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Do you want to auto-complete inputs?",
+                    "target": "是否啟用輸入自動完成功能？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where should Advanced Slides export presentations?",
+                    "target": "Advanced Slides 應將簡報匯出至何處？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How should the transition between slides look like?",
+                    "target": "投影片之間的轉場效果應如何呈現？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How fast should the transition between two slides be?",
+                    "target": "兩張投影片之間的轉場速度應設定為多少？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display presentation control arrows?",
+                    "target": "是否顯示簡報控制箭頭？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display presentation progress bar?",
+                    "target": "是否顯示簡報進度列？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the page number of the current slide?",
+                    "target": "是否顯示當前投影片的頁碼？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display presentation menu button?",
+                    "target": "是否顯示簡報選單按鈕？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display presentation  overview button?",
+                    "target": "是否顯示簡報概覽按鈕？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Should the slides contain a chalkboard ?",
+                    "target": "投影片是否應包含黑板功能？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display elapsed time bar?",
+                    "target": "是否顯示已耗用時間列？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Changes your mouse into a laser pointer (Toggle with Q)",
+                    "target": "將滑鼠游標變更為雷射筆（使用 Q 鍵切換）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Slide Preview Mode",
+                    "target": "投影片預覽模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Port",
+                    "target": "連接埠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Reload",
+                    "target": "自動重新載入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Complete",
+                    "target": "自動完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export Directory",
+                    "target": "匯出目錄"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transition Style",
+                    "target": "轉場樣式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transition Speed",
+                    "target": "轉場速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Controls",
+                    "target": "控制項"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Progress Bar",
+                    "target": "進度條"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Slide Numbers",
+                    "target": "幻燈片編號"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Menu",
+                    "target": "選單"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Overview",
+                    "target": "概覽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chalkboard",
+                    "target": "電子白板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Elapsed Time Bar",
+                    "target": "已耗時進度條"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Laser Pointer",
+                    "target": "雷射筆"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder",
+                    "target": "資料夾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Print Presentation",
+                    "target": "列印簡報"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Export as html",
+                    "target": "匯出為 HTML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "tough-cookie: can't load punycode; won't use punycode for domain normalization",
+                    "target": "tough-cookie: 無法載入 punycode；將不會使用 punycode 進行網域正規化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "options.requestBodyStream is deprecated, please pass the request object to stream.pipe.",
+                    "target": "options.requestBodyStream 已棄用，請將請求物件傳遞至 stream.pipe。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "::: <name>",
+                    "target": "::: <name>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "::: block",
+                    "target": "::: block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "drag=\"<width> <height>\"",
+                    "target": "drag=\"<width> <height>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "drop=\"<x> <y>\"",
+                    "target": "drop=\"<x> <y>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "flow=\"<col | row>\"",
+                    "target": "flow=\"<col | row>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "bg=\"<color name | #425232 | rgb(255, 99, 71) | hsl(0, 100%, 50%)>\"",
+                    "target": "bg=\"<color name | #425232 | rgb(255, 99, 71) | hsl(0, 100%, 50%)>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "pad=\"<all sides | vertical horizontal | top right bottom left>\"",
+                    "target": "pad=\"<all sides | vertical horizontal | top right bottom left>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "align=\"<left | right | center | justify | block | top | bottom | topleft | topright | bottomleft | bottomright | stretch>\"",
+                    "target": "align=\"<left | right | center | justify | block | top | bottom | topleft | topright | bottomleft | bottomright | stretch>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "border=\"<width> <style> <color>\"",
+                    "target": "border=\"<width> <style> <color>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "animate=\"<type> <speed>\"",
+                    "target": "animate=\"<type> <speed>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "filter=\"<blur | bright | contrast | grayscale | hue | invert | saturate | sepia>\"",
+                    "target": "filter=\"<blur | bright | contrast | grayscale | hue | invert | saturate | sepia>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<rgb(255, 99, 71)>",
+                    "target": "<rgb(255, 99, 71)>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<hsl(0, 100%, 50%)>",
+                    "target": "<hsl(0, 100%, 50%)>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "bg=\"<url | [[reference]]>\"",
+                    "target": "bg=\"<url | [[reference]]>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "skip=\"<true | false>\"",
+                    "target": "skip=\"<true | false>\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "an object is required",
+                    "target": "必須提供一個物件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Slide Preview",
+                    "target": "顯示幻燈片預覽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload Slide Preview",
+                    "target": "重新載入幻燈片預覽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Letter from Advanced Slides Development",
+                    "target": "來自 Advanced Slides 開發團隊的信件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General Settings",
+                    "target": "一般設定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Slide Settings",
+                    "target": "幻燈片設定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Plugins",
+                    "target": "外掛程式"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"REQUEST %s\",t3.format.apply(t3,arguments))}hr.prototype.debug=vi;hr.prototype.init=function(e){var t=this;e||(e={}),t.headers=t.headers?v7(t.headers):{};for(var r in t.headers)typeof t.headers[r]>\"u\"&&delete t.headers[r];if(g7.httpify(t,t.headers),t.method||(t.method=e.method||\"GET\")",
+                    "target": "error(\"REQUEST %s\",t3.format.apply(t3,arguments))}hr.prototype.debug=vi;hr.prototype.init=function(e){var t=this;e||(e={}),t.headers=t.headers?v7(t.headers):{};for(var r in t.headers)typeof t.headers[r]>\"u\"&&delete t.headers[r];if(g7.httpify(t,t.headers),t.method||(t.method=e.method||\"GET\")"
+                },
+                {
+                    "source": "error(\"Ignoring encoding parameter as this stream is being piped to another stream which makes the encoding option invalid.\")",
+                    "target": "error(\"Ignoring encoding parameter as this stream is being piped to another stream which makes the encoding option invalid.\")"
+                },
+                {
+                    "source": "setTitle(\"Print Presentation\")",
+                    "target": "setTitle(\"Print Presentation\")"
+                },
+                {
+                    "source": "setTitle(\"Export as html\")",
+                    "target": "setTitle(\"Export as html\")"
+                },
+                {
+                    "source": "log(`${t}: ${i}`)",
+                    "target": "log(`${t}: ${i}`)"
+                },
+                {
+                    "source": "log(`server started at http://localhost:${this._port}`)",
+                    "target": "log(`server started at http://localhost:${this._port}`)"
+                },
+                {
+                    "source": "Notice(`Port ${this._port} already used!`)",
+                    "target": "Notice(`Port ${this._port} already used!`)"
+                },
+                {
+                    "source": "log(\"server stopped\")",
+                    "target": "log(\"server stopped\")"
+                },
+                {
+                    "source": "setName(\"Slide Preview Mode\")",
+                    "target": "setName(\"Slide Preview Mode\")"
+                },
+                {
+                    "source": "setDesc(\"How should slide previews be displayed?\")",
+                    "target": "setDesc(\"How should slide previews be displayed?\")"
+                },
+                {
+                    "source": "setDesc(\"On which port should Advanced Slides run? (default: 3000)\")",
+                    "target": "setDesc(\"On which port should Advanced Slides run? (default: 3000)\")"
+                },
+                {
+                    "source": "setName(\"Auto Reload\")",
+                    "target": "setName(\"Auto Reload\")"
+                },
+                {
+                    "source": "setDesc(\"Should the slide preview window be updated when a change in source file is detected?\")",
+                    "target": "setDesc(\"Should the slide preview window be updated when a change in source file is detected?\")"
+                },
+                {
+                    "source": "setName(\"Auto Complete\")",
+                    "target": "setName(\"Auto Complete\")"
+                },
+                {
+                    "source": "setDesc(\"Do you want to auto-complete inputs?\")",
+                    "target": "setDesc(\"Do you want to auto-complete inputs?\")"
+                },
+                {
+                    "source": "setName(\"Export Directory\")",
+                    "target": "setName(\"Export Directory\")"
+                },
+                {
+                    "source": "setDesc(\"Where should Advanced Slides export presentations?\")",
+                    "target": "setDesc(\"Where should Advanced Slides export presentations?\")"
+                },
+                {
+                    "source": "setName(\"Transition Style\")",
+                    "target": "setName(\"Transition Style\")"
+                },
+                {
+                    "source": "setDesc(\"How should the transition between slides look like?\")",
+                    "target": "setDesc(\"How should the transition between slides look like?\")"
+                },
+                {
+                    "source": "setName(\"Transition Speed\")",
+                    "target": "setName(\"Transition Speed\")"
+                },
+                {
+                    "source": "setDesc(\"How fast should the transition between two slides be?\")",
+                    "target": "setDesc(\"How fast should the transition between two slides be?\")"
+                },
+                {
+                    "source": "setDesc(\"Display presentation control arrows?\")",
+                    "target": "setDesc(\"Display presentation control arrows?\")"
+                },
+                {
+                    "source": "setName(\"Progress Bar\")",
+                    "target": "setName(\"Progress Bar\")"
+                },
+                {
+                    "source": "setDesc(\"Display presentation progress bar?\")",
+                    "target": "setDesc(\"Display presentation progress bar?\")"
+                },
+                {
+                    "source": "setName(\"Slide Numbers\")",
+                    "target": "setName(\"Slide Numbers\")"
+                },
+                {
+                    "source": "setDesc(\"Display the page number of the current slide?\")",
+                    "target": "setDesc(\"Display the page number of the current slide?\")"
+                },
+                {
+                    "source": "setDesc(\"Display presentation menu button?\")",
+                    "target": "setDesc(\"Display presentation menu button?\")"
+                },
+                {
+                    "source": "setDesc(\"Display presentation  overview button?\")",
+                    "target": "setDesc(\"Display presentation  overview button?\")"
+                },
+                {
+                    "source": "setDesc(\"Should the slides contain a chalkboard ?\")",
+                    "target": "setDesc(\"Should the slides contain a chalkboard ?\")"
+                },
+                {
+                    "source": "setName(\"Elapsed Time Bar\")",
+                    "target": "setName(\"Elapsed Time Bar\")"
+                },
+                {
+                    "source": "setDesc(\"Display elapsed time bar?\")",
+                    "target": "setDesc(\"Display elapsed time bar?\")"
+                },
+                {
+                    "source": "setName(\"Laser Pointer\")",
+                    "target": "setName(\"Laser Pointer\")"
+                },
+                {
+                    "source": "setDesc(\"Changes your mouse into a laser pointer (Toggle with Q)\")",
+                    "target": "setDesc(\"Changes your mouse into a laser pointer (Toggle with Q)\")"
+                },
+                {
+                    "source": "description:\"::: <name>\"",
+                    "target": "description:\"::: <name>\""
+                },
+                {
+                    "source": "description:\"::: block\"",
+                    "target": "description:\"::: block\""
+                },
+                {
+                    "source": "description:'drag=\"<width> <height>\"'",
+                    "target": "description:'drag=\"<width> <height>\"'"
+                },
+                {
+                    "source": "description:'drop=\"<x> <y>\"'",
+                    "target": "description:'drop=\"<x> <y>\"'"
+                },
+                {
+                    "source": "description:'flow=\"<col | row>\"'",
+                    "target": "description:'flow=\"<col | row>\"'"
+                },
+                {
+                    "source": "description:'bg=\"<color name | #425232 | rgb(255, 99, 71) | hsl(0, 100%, 50%)>\"'",
+                    "target": "description:'bg=\"<color name | #425232 | rgb(255, 99, 71) | hsl(0, 100%, 50%)>\"'"
+                },
+                {
+                    "source": "description:'pad=\"<all sides | vertical horizontal | top right bottom left>\"'",
+                    "target": "description:'pad=\"<all sides | vertical horizontal | top right bottom left>\"'"
+                },
+                {
+                    "source": "description:'align=\"<left | right | center | justify | block | top | bottom | topleft | topright | bottomleft | bottomright | stretch>\"'",
+                    "target": "description:'align=\"<left | right | center | justify | block | top | bottom | topleft | topright | bottomleft | bottomright | stretch>\"'"
+                },
+                {
+                    "source": "description:'border=\"<width> <style> <color>\"'",
+                    "target": "description:'border=\"<width> <style> <color>\"'"
+                },
+                {
+                    "source": "description:'animate=\"<type> <speed>\"'",
+                    "target": "description:'animate=\"<type> <speed>\"'"
+                },
+                {
+                    "source": "description:'filter=\"<blur | bright | contrast | grayscale | hue | invert | saturate | sepia>\"'",
+                    "target": "description:'filter=\"<blur | bright | contrast | grayscale | hue | invert | saturate | sepia>\"'"
+                },
+                {
+                    "source": "description:\"<rgb(255, 99, 71)>\"",
+                    "target": "description:\"<rgb(255, 99, 71)>\""
+                },
+                {
+                    "source": "description:\"<hsl(0, 100%, 50%)>\"",
+                    "target": "description:\"<hsl(0, 100%, 50%)>\""
+                },
+                {
+                    "source": "description:'bg=\"<url | [[reference]]>\"'",
+                    "target": "description:'bg=\"<url | [[reference]]>\"'"
+                },
+                {
+                    "source": "description:'skip=\"<true | false>\"'",
+                    "target": "description:'skip=\"<true | false>\"'"
+                },
+                {
+                    "source": "name:\"Show Slide Preview\"",
+                    "target": "name:\"Show Slide Preview\""
+                },
+                {
+                    "source": "name:\"Reload Slide Preview\"",
+                    "target": "name:\"Reload Slide Preview\""
+                },
+                {
+                    "source": "text:\"Parameters invalid: \"",
+                    "target": "text:\"Parameters invalid: \""
+                },
+                {
+                    "source": "text:\"Letter from Advanced Slides Development\"",
+                    "target": "text:\"Letter from Advanced Slides Development\""
+                },
+                {
+                    "source": "text:\"General Settings\"",
+                    "target": "text:\"General Settings\""
+                },
+                {
+                    "source": "text:\"Slide Settings\"",
+                    "target": "text:\"Slide Settings\""
+                }
+            ]
+        }
+    }
+}

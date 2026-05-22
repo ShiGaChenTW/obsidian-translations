@@ -1,0 +1,66 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-search-views",
+        "version": "1.0.0",
+        "title": "Better Search Views",
+        "description": "Better Search Views Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "0.3.0",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "markRanges() will only accept an array of objects",
+                    "target": "markRanges() 僅接受物件陣列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to find DOM nodes for hydration key:",
+                    "target": "無法找到用於 hydration key 的 DOM 節點："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unrecognized value. Skipped inserting",
+                    "target": "無法識別的值。已略過插入"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(`File ${path} does not exist`)",
+                    "target": "Notice(`File ${path} does not exist`)"
+                },
+                {
+                    "source": "Notice(`Failed to open file ${path}. Can't scroll to line ${line}`)",
+                    "target": "Notice(`Failed to open file ${path}. Can't scroll to line ${line}`)"
+                },
+                {
+                    "source": "log(\"markRanges() will only accept an array of objects\")",
+                    "target": "log(\"markRanges() will only accept an array of objects\")"
+                },
+                {
+                    "source": "log('Searching with expression \"' + regexp + '\"')",
+                    "target": "log('Searching with expression \"' + regexp + '\"')"
+                },
+                {
+                    "source": "log('Searching with expression \"' + regex + '\"')",
+                    "target": "log('Searching with expression \"' + regex + '\"')"
+                },
+                {
+                    "source": "link: \"http://www.w3.org/1999/xlink\"",
+                    "target": "link: \"http://www.w3.org/1999/xlink\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                }
+            ]
+        }
+    }
+}

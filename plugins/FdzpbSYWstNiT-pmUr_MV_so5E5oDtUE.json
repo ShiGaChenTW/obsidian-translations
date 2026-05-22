@@ -1,0 +1,390 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "base-board",
+        "version": "1.0.0",
+        "title": "Base Board",
+        "description": "Base Board Localization & Tweaks",
+        "language": "zh-tw",
+        "supportedVersions": "2.1.3",
+        "author": "Scott"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add",
+                    "target": "新增"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create",
+                    "target": "建立"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open in split pane",
+                    "target": "於分割視窗中開啟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open in new tab",
+                    "target": "於新分頁中開啟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Edit tags",
+                    "target": "編輯標籤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save",
+                    "target": "儲存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Done",
+                    "target": "完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to create the board and its task files",
+                    "target": "設定看板及其任務檔案的建立位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The frontmatter property used for columns",
+                    "target": "用於欄位的 Frontmatter 屬性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Name",
+                    "target": "名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Board name",
+                    "target": "看板名稱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder",
+                    "target": "資料夾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group by property",
+                    "target": "依屬性分組"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag color",
+                    "target": "標籤顏色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "My new board",
+                    "target": "我的新看板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Status",
+                    "target": "狀態"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit tags",
+                    "target": "編輯標籤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename column",
+                    "target": "重新命名欄位"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit tags",
+                    "target": "編輯標籤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open",
+                    "target": "開啟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in new tab",
+                    "target": "於新分頁中開啟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename",
+                    "target": "重新命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete",
+                    "target": "刪除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a board name.",
+                    "target": "請輸入看板名稱。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot create card: no group by property configured.",
+                    "target": "無法建立卡片：未設定分組依據屬性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kanban",
+                    "target": "看板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new board",
+                    "target": "建立新看板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Card title…",
+                    "target": "卡片標題…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Add tag...",
+                    "target": "新增標籤…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create new board",
+                    "target": "建立新看板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add column",
+                    "target": "新增欄位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Filters:",
+                    "target": "篩選器："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clear",
+                    "target": "清除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Set \"group by\" in the sort menu to organize cards into columns.",
+                    "target": "請於排序選單中設定「分組依據」，以便將卡片整理至各欄位中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Plan project",
+                    "target": "專案規劃"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Research and discovery",
+                    "target": "研究與探索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Build first feature",
+                    "target": "建置首項功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fix onboarding bug",
+                    "target": "修復新手引導錯誤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Write documentation",
+                    "target": "撰寫說明文件"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Board name\")",
+                    "target": "setName(\"Board name\")"
+                },
+                {
+                    "source": "setPlaceholder(\"My new board\")",
+                    "target": "setPlaceholder(\"My new board\")"
+                },
+                {
+                    "source": "setDesc(\"Where to create the board and its task files\")",
+                    "target": "setDesc(\"Where to create the board and its task files\")"
+                },
+                {
+                    "source": "setName(\"Group by property\")",
+                    "target": "setName(\"Group by property\")"
+                },
+                {
+                    "source": "setDesc(\"The frontmatter property used for columns\")",
+                    "target": "setDesc(\"The frontmatter property used for columns\")"
+                },
+                {
+                    "source": "Notice(\"Please enter a board name.\")",
+                    "target": "Notice(\"Please enter a board name.\")"
+                },
+                {
+                    "source": "setTitle(\"Rename column\")",
+                    "target": "setTitle(\"Rename column\")"
+                },
+                {
+                    "source": "Notice(`Column \"${name}\" already exists.`)",
+                    "target": "Notice(`Column \"${name}\" already exists.`)"
+                },
+                {
+                    "source": "Notice(`Column \"${newName}\" already exists.`)",
+                    "target": "Notice(`Column \"${newName}\" already exists.`)"
+                },
+                {
+                    "source": "setButtonText(\"Open in split pane\")",
+                    "target": "setButtonText(\"Open in split pane\")"
+                },
+                {
+                    "source": "setButtonText(\"Open in new tab\")",
+                    "target": "setButtonText(\"Open in new tab\")"
+                },
+                {
+                    "source": "setButtonText(\"Edit tags\")",
+                    "target": "setButtonText(\"Edit tags\")"
+                },
+                {
+                    "source": "setText(`+${overflowCount} more`)",
+                    "target": "setText(`+${overflowCount} more`)"
+                },
+                {
+                    "source": "setTitle(\"Edit tags\")",
+                    "target": "setTitle(\"Edit tags\")"
+                },
+                {
+                    "source": "setTitle(\"Open in new tab\")",
+                    "target": "setTitle(\"Open in new tab\")"
+                },
+                {
+                    "source": "Notice(`Moved \"${file.basename}\" to trash`)",
+                    "target": "Notice(`Moved \"${file.basename}\" to trash`)"
+                },
+                {
+                    "source": "Notice(`Rename failed: ${String(err)}`)",
+                    "target": "Notice(`Rename failed: ${String(err)}`)"
+                },
+                {
+                    "source": "Notice(\"Cannot create card: no group by property configured.\")",
+                    "target": "Notice(\"Cannot create card: no group by property configured.\")"
+                },
+                {
+                    "source": "Notice(`Created \"${safeName}\"`)",
+                    "target": "Notice(`Created \"${safeName}\"`)"
+                },
+                {
+                    "source": "setTitle(`Move ${selectedPaths.length} cards to\\u2026`)",
+                    "target": "setTitle(`Move ${selectedPaths.length} cards to\\u2026`)"
+                },
+                {
+                    "source": "Notice(\n      `Moved ${filePaths.length} card${filePaths.length > 1 ? \"s\" : \"\"} to \"${targetColumn}\"`\n    )",
+                    "target": "Notice(\n      `Moved ${filePaths.length} card${filePaths.length > 1 ? \"s\" : \"\"} to \"${targetColumn}\"`\n    )"
+                },
+                {
+                    "source": "setText(\"Edit tags\")",
+                    "target": "setText(\"Edit tags\")"
+                },
+                {
+                    "source": "setName(\"Tag color\")",
+                    "target": "setName(\"Tag color\")"
+                },
+                {
+                    "source": "Notice(`A board already exists at \"${basePath}\".`)",
+                    "target": "Notice(`A board already exists at \"${basePath}\".`)"
+                },
+                {
+                    "source": "Notice(`Board \"${name}\" created!`)",
+                    "target": "Notice(`Board \"${name}\" created!`)"
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "text: \"Create new board\"",
+                    "target": "text: \"Create new board\""
+                },
+                {
+                    "source": "text: \"Add column\"",
+                    "target": "text: \"Add column\""
+                },
+                {
+                    "source": "text: \"Filters:\"",
+                    "target": "text: \"Filters:\""
+                },
+                {
+                    "source": "text: \"Clear\"",
+                    "target": "text: \"Clear\""
+                },
+                {
+                    "source": "text: `Color for \"${this.tag}\"`",
+                    "target": "text: `Color for \"${this.tag}\"`"
+                },
+                {
+                    "source": "text: 'Set \"group by\" in the sort menu to organize cards into columns.'",
+                    "target": "text: 'Set \"group by\" in the sort menu to organize cards into columns.'"
+                },
+                {
+                    "source": "name: \"Kanban\"",
+                    "target": "name: \"Kanban\""
+                },
+                {
+                    "source": "name: \"Create new board\"",
+                    "target": "name: \"Create new board\""
+                }
+            ]
+        }
+    }
+}
